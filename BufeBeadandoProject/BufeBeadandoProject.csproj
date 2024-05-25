@@ -65,15 +65,15 @@
       <DependentUpon>AdminLoginWindow.cs</DependentUpon>
     </Compile>
     <Compile Include="DessertDecorator.cs" />
-    <Compile Include="Factorys\Soups\CabbageSoupFactory.cs" />
-    <Compile Include="Factorys\Soups\CarrotCreamSoupFactory.cs" />
-    <Compile Include="Factorys\Soups\CreamSoupFactory.cs" />
-    <Compile Include="Factorys\Soups\GoulashSoupFactory.cs" />
-    <Compile Include="Factorys\Soups\LentilSoupFactory.cs" />
-    <Compile Include="Factorys\Soups\PeaSoupFactory.cs" />
-    <Compile Include="Factorys\Soups\SpinachSoupFactory.cs" />
-    <Compile Include="Factorys\Soups\TomatoSoupFactory.cs" />
-    <Compile Include="Factorys\Soups\ZucchiniSoupFactory.cs" />
+    <Compile Include="Factorys\Soup factorys\CabbageSoupFactory.cs" />
+    <Compile Include="Factorys\Soup factorys\CarrotCreamSoupFactory.cs" />
+    <Compile Include="Factorys\Soup factorys\CreamSoupFactory.cs" />
+    <Compile Include="Factorys\Soup factorys\GoulashSoupFactory.cs" />
+    <Compile Include="Factorys\Soup factorys\LentilSoupFactory.cs" />
+    <Compile Include="Factorys\Soup factorys\PeaSoupFactory.cs" />
+    <Compile Include="Factorys\Soup factorys\SpinachSoupFactory.cs" />
+    <Compile Include="Factorys\Soup factorys\TomatoSoupFactory.cs" />
+    <Compile Include="Factorys\Soup factorys\ZucchiniSoupFactory.cs" />
     <Compile Include="FoodOrderWindow.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -101,7 +101,7 @@
     <Compile Include="SaltDecorator.cs" />
     <Compile Include="Interfaces\Soups\ISoup.cs" />
     <Compile Include="Soups\BeanSoup.cs" />
-    <Compile Include="Factorys\Soups\BeanSoupFactory.cs" />
+    <Compile Include="Factorys\Soup factorys\BeanSoupFactory.cs" />
     <Compile Include="Soups\CabbageSoup.cs" />
     <Compile Include="Soups\CarrotCreamSoup.cs" />
     <Compile Include="Soups\CreamSoup.cs" />

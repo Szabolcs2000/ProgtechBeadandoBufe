@@ -43,6 +43,7 @@
             this.TB_RegPW2 = new System.Windows.Forms.TextBox();
             this.BTN_RegShowAndHidePW = new System.Windows.Forms.Button();
             this.BTN_RegShowAndHidePW2 = new System.Windows.Forms.Button();
+            this.LB_ErrorMessage = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // BTN_RegUser
@@ -90,6 +91,7 @@
             this.BTN_RegCreate.TabIndex = 20;
             this.BTN_RegCreate.Text = "Regisztráció";
             this.BTN_RegCreate.UseVisualStyleBackColor = true;
+            this.BTN_RegCreate.Click += new System.EventHandler(this.BTN_RegCreate_Click);
             // 
             // TB_RegPW
             // 
@@ -176,11 +178,21 @@
             this.BTN_RegShowAndHidePW2.UseVisualStyleBackColor = true;
             this.BTN_RegShowAndHidePW2.Click += new System.EventHandler(this.BTN_RegShowAndHidePW2_Click);
             // 
+            // LB_ErrorMessage
+            // 
+            this.LB_ErrorMessage.AutoSize = true;
+            this.LB_ErrorMessage.Location = new System.Drawing.Point(308, 372);
+            this.LB_ErrorMessage.Name = "LB_ErrorMessage";
+            this.LB_ErrorMessage.RightToLeft = System.Windows.Forms.RightToLeft.No;
+            this.LB_ErrorMessage.Size = new System.Drawing.Size(0, 13);
+            this.LB_ErrorMessage.TabIndex = 32;
+            // 
             // RegWindow
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.LB_ErrorMessage);
             this.Controls.Add(this.BTN_RegShowAndHidePW2);
             this.Controls.Add(this.BTN_RegShowAndHidePW);
             this.Controls.Add(this.TB_RegPW2);
@@ -220,5 +232,6 @@
         private System.Windows.Forms.TextBox TB_RegPW2;
         private System.Windows.Forms.Button BTN_RegShowAndHidePW;
         private System.Windows.Forms.Button BTN_RegShowAndHidePW2;
+        private System.Windows.Forms.Label LB_ErrorMessage;
     }
 }
