@@ -15,7 +15,7 @@ namespace BufeBeadandoProject
        
         public AdminLoginWindow(){
             InitializeComponent();
-            LB_ErrorMessage.Text = "aa";
+            LB_ErrorMessage.Text = "";
             TB_AdminPW.UseSystemPasswordChar = true;
         }
 
