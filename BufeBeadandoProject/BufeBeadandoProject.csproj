@@ -46,6 +46,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="AboutPaymentWindow.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AboutPaymentWindow.Designer.cs">
+      <DependentUpon>AboutPaymentWindow.cs</DependentUpon>
+    </Compile>
     <Compile Include="AdminFoodEditWindow.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -58,18 +64,25 @@
     <Compile Include="AdminLoginWindow.Designer.cs">
       <DependentUpon>AdminLoginWindow.cs</DependentUpon>
     </Compile>
+    <Compile Include="DessertDecorator.cs" />
     <Compile Include="FoodOrderWindow.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="FoodOrderWindow.Designer.cs">
       <DependentUpon>FoodOrderWindow.cs</DependentUpon>
     </Compile>
+    <Compile Include="ICHBAndCBEvenetSubsricbe.cs" />
+    <Compile Include="IExtra.cs" />
+    <Compile Include="MenuDecorator.cs" />
+    <Compile Include="PepperDecorator.cs" />
     <Compile Include="RegWindow.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="RegWindow.Designer.cs">
       <DependentUpon>RegWindow.cs</DependentUpon>
     </Compile>
+    <Compile Include="SimpleMenu.cs" />
+    <Compile Include="SaltDecorator.cs" />
     <Compile Include="UserLoginWindow.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -79,6 +92,9 @@
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="User.cs" />
+    <EmbeddedResource Include="AboutPaymentWindow.resx">
+      <DependentUpon>AboutPaymentWindow.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="AdminFoodEditWindow.resx">
       <DependentUpon>AdminFoodEditWindow.cs</DependentUpon>
     </EmbeddedResource>

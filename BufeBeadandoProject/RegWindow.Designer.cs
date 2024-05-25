@@ -197,7 +197,7 @@
             this.Controls.Add(this.TB_RegName);
             this.Controls.Add(this.LB_RegWindowTitle);
             this.Name = "RegWindow";
-            this.Text = "RegWindow";
+            this.Text = "Regisztráció";
             this.ResumeLayout(false);
             this.PerformLayout();
 

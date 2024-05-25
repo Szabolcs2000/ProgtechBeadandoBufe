@@ -12,18 +12,4 @@ D:\Suli\Tantárgyak\4. félév\Programozási technológiák gy\Beadandó\BufeBea
 D:\Suli\Tantárgyak\4. félév\Programozási technológiák gy\Beadandó\BufeBeadandoProject\obj\Debug\BufeBeadandoProject.RegWindow.resources
 D:\Suli\Tantárgyak\4. félév\Programozási technológiák gy\Beadandó\BufeBeadandoProject\obj\Debug\BufeBeadandoProject.FoodOrderWindow.resources
 D:\Suli\Tantárgyak\4. félév\Programozási technológiák gy\Beadandó\BufeBeadandoProject\obj\Debug\BufeBeadandoProject.AdminFoodEditWindow.resources
-D:\- Egyetem\4. félév\Progtech\Project2Test\VisualStudioTest\BufeBeadandoProject\bin\Debug\BufeBeadandoProject.exe.config
-D:\- Egyetem\4. félév\Progtech\Project2Test\VisualStudioTest\BufeBeadandoProject\bin\Debug\BufeBeadandoProject.exe
-D:\- Egyetem\4. félév\Progtech\Project2Test\VisualStudioTest\BufeBeadandoProject\bin\Debug\BufeBeadandoProject.pdb
-D:\- Egyetem\4. félév\Progtech\Project2Test\VisualStudioTest\BufeBeadandoProject\obj\Debug\BufeBeadandoProject.csproj.AssemblyReference.cache
-D:\- Egyetem\4. félév\Progtech\Project2Test\VisualStudioTest\BufeBeadandoProject\obj\Debug\BufeBeadandoProject.csproj.SuggestedBindingRedirects.cache
-D:\- Egyetem\4. félév\Progtech\Project2Test\VisualStudioTest\BufeBeadandoProject\obj\Debug\BufeBeadandoProject.AdminFoodEditWindow.resources
-D:\- Egyetem\4. félév\Progtech\Project2Test\VisualStudioTest\BufeBeadandoProject\obj\Debug\BufeBeadandoProject.AdminLoginWindow.resources
-D:\- Egyetem\4. félév\Progtech\Project2Test\VisualStudioTest\BufeBeadandoProject\obj\Debug\BufeBeadandoProject.FoodOrderWindow.resources
-D:\- Egyetem\4. félév\Progtech\Project2Test\VisualStudioTest\BufeBeadandoProject\obj\Debug\BufeBeadandoProject.Properties.Resources.resources
-D:\- Egyetem\4. félév\Progtech\Project2Test\VisualStudioTest\BufeBeadandoProject\obj\Debug\BufeBeadandoProject.RegWindow.resources
-D:\- Egyetem\4. félév\Progtech\Project2Test\VisualStudioTest\BufeBeadandoProject\obj\Debug\BufeBeadandoProject.UserLoginWindow.resources
-D:\- Egyetem\4. félév\Progtech\Project2Test\VisualStudioTest\BufeBeadandoProject\obj\Debug\BufeBeadandoProject.csproj.GenerateResource.cache
-D:\- Egyetem\4. félév\Progtech\Project2Test\VisualStudioTest\BufeBeadandoProject\obj\Debug\BufeBeadandoProject.csproj.CoreCompileInputs.cache
-D:\- Egyetem\4. félév\Progtech\Project2Test\VisualStudioTest\BufeBeadandoProject\obj\Debug\BufeBeadandoProject.exe
-D:\- Egyetem\4. félév\Progtech\Project2Test\VisualStudioTest\BufeBeadandoProject\obj\Debug\BufeBeadandoProject.pdb
+D:\Suli\Tantárgyak\4. félév\Programozási technológiák gy\Beadandó\BufeBeadandoProject\obj\Debug\BufeBeadandoProject.AboutPaymentWindow.resources

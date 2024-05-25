@@ -10,29 +10,29 @@ using System.Windows.Forms;
 
 namespace BufeBeadandoProject
 {
-    public partial class AdminFoodEditWindow : Form
+    public partial class AboutPaymentWindow : Form
     {
-        public AdminFoodEditWindow()
+        public AboutPaymentWindow()
         {
             InitializeComponent();
         }
 
-        private static AdminFoodEditWindow instance;
+        private static AboutPaymentWindow instance;
 
-        public static AdminFoodEditWindow Instance
+        public static AboutPaymentWindow Instance
         {
             get
             {
                 if (Instance == null)
-                    instance = new AdminFoodEditWindow();
+                    instance = new AboutPaymentWindow();
                 return instance;
             }
 
         }
 
-        private void BTN_FoodEditExit_Click(object sender, EventArgs e)
+        private void BTN_AboutPaymentExit_Click(object sender, EventArgs e)
         {
             Application.Exit();
-        }
+                    }
     }
 }

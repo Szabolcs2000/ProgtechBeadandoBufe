@@ -48,7 +48,7 @@
             this.ClientSize = new System.Drawing.Size(800, 450);
             this.Controls.Add(this.BTN_FoodEditExit);
             this.Name = "AdminFoodEditWindow";
-            this.Text = "AdminFoodEditWindow";
+            this.Text = "Étlap szerkesztés";
             this.ResumeLayout(false);
 
         }

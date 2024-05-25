@@ -156,7 +156,7 @@
             this.Controls.Add(this.TB_AdminName);
             this.Controls.Add(this.LB_AdminWindowTitle);
             this.Name = "AdminLoginWindow";
-            this.Text = "AdminLoginWindow";
+            this.Text = "Admin bejelentkezés";
             this.ResumeLayout(false);
             this.PerformLayout();
 

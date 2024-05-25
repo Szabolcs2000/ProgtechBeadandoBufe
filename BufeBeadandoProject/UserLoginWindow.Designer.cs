@@ -181,7 +181,7 @@
             this.Controls.Add(this.TB_UserName);
             this.Controls.Add(this.LB_Cim);
             this.Name = "UserLoginWindow";
-            this.Text = "UserLoginWindow";
+            this.Text = "Bejelentkezés";
             this.ResumeLayout(false);
             this.PerformLayout();
 
