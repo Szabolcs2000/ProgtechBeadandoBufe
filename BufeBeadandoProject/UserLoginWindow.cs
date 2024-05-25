@@ -100,5 +100,13 @@ namespace BufeBeadandoProject
             else
                 TB_UserPW.UseSystemPasswordChar = true;
         }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            Menu menu = new Menu();
+            menu.FormClosed += (s, args) => this.Show();
+            menu.Show();
+            this.Hide();
+        }
     }
 }

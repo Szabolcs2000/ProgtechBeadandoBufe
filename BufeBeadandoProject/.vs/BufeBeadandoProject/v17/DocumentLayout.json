@@ -1,22 +1,126 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "D:\\Suli\\Tant\u00E1rgyak\\4. f\u00E9l\u00E9v\\Programoz\u00E1si technol\u00F3gi\u00E1k gy\\Beadand\u00F3\\BufeBeadandoProject\\",
+  "WorkspaceRootPath": "D:\\- Egyetem\\4. f\u00E9l\u00E9v\\Progtech\\ELESProject\\ProgtechBeadando\\BufeBeadandoProject\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{98ADE710-9989-46F8-9116-BA9258A98AB3}|BufeBeadandoProject.csproj|D:\\Suli\\Tant\u00E1rgyak\\4. f\u00E9l\u00E9v\\Programoz\u00E1si technol\u00F3gi\u00E1k gy\\Beadand\u00F3\\BufeBeadandoProject\\foodorderwindow.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{98ADE710-9989-46F8-9116-BA9258A98AB3}|BufeBeadandoProject.csproj|solutionrelative:foodorderwindow.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{98ADE710-9989-46F8-9116-BA9258A98AB3}|BufeBeadandoProject.csproj|d:\\- egyetem\\4. f\u00E9l\u00E9v\\progtech\\elesproject\\progtechbeadando\\bufebeadandoproject\\menu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{98ADE710-9989-46F8-9116-BA9258A98AB3}|BufeBeadandoProject.csproj|solutionrelative:menu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{98ADE710-9989-46F8-9116-BA9258A98AB3}|BufeBeadandoProject.csproj|d:\\suli\\tant\u00E1rgyak\\4. f\u00E9l\u00E9v\\programoz\u00E1si technol\u00F3gi\u00E1k gy\\beadand\u00F3\\bufebeadandoproject\\userloginwindow.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{98ADE710-9989-46F8-9116-BA9258A98AB3}|BufeBeadandoProject.csproj|d:\\- egyetem\\4. f\u00E9l\u00E9v\\progtech\\elesproject\\progtechbeadando\\bufebeadandoproject\\factorys\\soups\\zucchinisoupfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{98ADE710-9989-46F8-9116-BA9258A98AB3}|BufeBeadandoProject.csproj|solutionrelative:factorys\\soups\\zucchinisoupfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{98ADE710-9989-46F8-9116-BA9258A98AB3}|BufeBeadandoProject.csproj|d:\\- egyetem\\4. f\u00E9l\u00E9v\\progtech\\elesproject\\progtechbeadando\\bufebeadandoproject\\factorys\\soups\\lentilsoupfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{98ADE710-9989-46F8-9116-BA9258A98AB3}|BufeBeadandoProject.csproj|solutionrelative:factorys\\soups\\lentilsoupfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{98ADE710-9989-46F8-9116-BA9258A98AB3}|BufeBeadandoProject.csproj|d:\\- egyetem\\4. f\u00E9l\u00E9v\\progtech\\elesproject\\progtechbeadando\\bufebeadandoproject\\factorys\\soups\\tomatosoupfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{98ADE710-9989-46F8-9116-BA9258A98AB3}|BufeBeadandoProject.csproj|solutionrelative:factorys\\soups\\tomatosoupfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{98ADE710-9989-46F8-9116-BA9258A98AB3}|BufeBeadandoProject.csproj|d:\\- egyetem\\4. f\u00E9l\u00E9v\\progtech\\elesproject\\progtechbeadando\\bufebeadandoproject\\factorys\\soups\\spinachsoupfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{98ADE710-9989-46F8-9116-BA9258A98AB3}|BufeBeadandoProject.csproj|solutionrelative:factorys\\soups\\spinachsoupfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{98ADE710-9989-46F8-9116-BA9258A98AB3}|BufeBeadandoProject.csproj|d:\\- egyetem\\4. f\u00E9l\u00E9v\\progtech\\elesproject\\progtechbeadando\\bufebeadandoproject\\factorys\\soups\\peasoupfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{98ADE710-9989-46F8-9116-BA9258A98AB3}|BufeBeadandoProject.csproj|solutionrelative:factorys\\soups\\peasoupfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{98ADE710-9989-46F8-9116-BA9258A98AB3}|BufeBeadandoProject.csproj|d:\\- egyetem\\4. f\u00E9l\u00E9v\\progtech\\elesproject\\progtechbeadando\\bufebeadandoproject\\factorys\\soups\\goulashsoupfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{98ADE710-9989-46F8-9116-BA9258A98AB3}|BufeBeadandoProject.csproj|solutionrelative:factorys\\soups\\goulashsoupfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{98ADE710-9989-46F8-9116-BA9258A98AB3}|BufeBeadandoProject.csproj|d:\\- egyetem\\4. f\u00E9l\u00E9v\\progtech\\elesproject\\progtechbeadando\\bufebeadandoproject\\factorys\\soups\\creamsoupfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{98ADE710-9989-46F8-9116-BA9258A98AB3}|BufeBeadandoProject.csproj|solutionrelative:factorys\\soups\\creamsoupfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{98ADE710-9989-46F8-9116-BA9258A98AB3}|BufeBeadandoProject.csproj|d:\\- egyetem\\4. f\u00E9l\u00E9v\\progtech\\elesproject\\progtechbeadando\\bufebeadandoproject\\factorys\\soups\\carrotcreamsoupfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{98ADE710-9989-46F8-9116-BA9258A98AB3}|BufeBeadandoProject.csproj|solutionrelative:factorys\\soups\\carrotcreamsoupfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{98ADE710-9989-46F8-9116-BA9258A98AB3}|BufeBeadandoProject.csproj|d:\\- egyetem\\4. f\u00E9l\u00E9v\\progtech\\elesproject\\progtechbeadando\\bufebeadandoproject\\factorys\\soups\\cabbagesoupfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{98ADE710-9989-46F8-9116-BA9258A98AB3}|BufeBeadandoProject.csproj|solutionrelative:factorys\\soups\\cabbagesoupfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{98ADE710-9989-46F8-9116-BA9258A98AB3}|BufeBeadandoProject.csproj|d:\\- egyetem\\4. f\u00E9l\u00E9v\\progtech\\elesproject\\progtechbeadando\\bufebeadandoproject\\soups\\carrotcreamsoup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{98ADE710-9989-46F8-9116-BA9258A98AB3}|BufeBeadandoProject.csproj|solutionrelative:soups\\carrotcreamsoup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{98ADE710-9989-46F8-9116-BA9258A98AB3}|BufeBeadandoProject.csproj|d:\\- egyetem\\4. f\u00E9l\u00E9v\\progtech\\elesproject\\progtechbeadando\\bufebeadandoproject\\soups\\zucchinisoup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{98ADE710-9989-46F8-9116-BA9258A98AB3}|BufeBeadandoProject.csproj|solutionrelative:soups\\zucchinisoup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{98ADE710-9989-46F8-9116-BA9258A98AB3}|BufeBeadandoProject.csproj|d:\\- egyetem\\4. f\u00E9l\u00E9v\\progtech\\elesproject\\progtechbeadando\\bufebeadandoproject\\soups\\spinachsoup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{98ADE710-9989-46F8-9116-BA9258A98AB3}|BufeBeadandoProject.csproj|solutionrelative:soups\\spinachsoup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{98ADE710-9989-46F8-9116-BA9258A98AB3}|BufeBeadandoProject.csproj|d:\\- egyetem\\4. f\u00E9l\u00E9v\\progtech\\elesproject\\progtechbeadando\\bufebeadandoproject\\soups\\tomatosoup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{98ADE710-9989-46F8-9116-BA9258A98AB3}|BufeBeadandoProject.csproj|solutionrelative:soups\\tomatosoup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{98ADE710-9989-46F8-9116-BA9258A98AB3}|BufeBeadandoProject.csproj|d:\\- egyetem\\4. f\u00E9l\u00E9v\\progtech\\elesproject\\progtechbeadando\\bufebeadandoproject\\soups\\peasoup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{98ADE710-9989-46F8-9116-BA9258A98AB3}|BufeBeadandoProject.csproj|solutionrelative:soups\\peasoup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{98ADE710-9989-46F8-9116-BA9258A98AB3}|BufeBeadandoProject.csproj|d:\\- egyetem\\4. f\u00E9l\u00E9v\\progtech\\elesproject\\progtechbeadando\\bufebeadandoproject\\soups\\lentilsoup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{98ADE710-9989-46F8-9116-BA9258A98AB3}|BufeBeadandoProject.csproj|solutionrelative:soups\\lentilsoup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{98ADE710-9989-46F8-9116-BA9258A98AB3}|BufeBeadandoProject.csproj|d:\\- egyetem\\4. f\u00E9l\u00E9v\\progtech\\elesproject\\progtechbeadando\\bufebeadandoproject\\soups\\goulashsoup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{98ADE710-9989-46F8-9116-BA9258A98AB3}|BufeBeadandoProject.csproj|solutionrelative:soups\\goulashsoup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{98ADE710-9989-46F8-9116-BA9258A98AB3}|BufeBeadandoProject.csproj|d:\\- egyetem\\4. f\u00E9l\u00E9v\\progtech\\elesproject\\progtechbeadando\\bufebeadandoproject\\soups\\creamsoup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{98ADE710-9989-46F8-9116-BA9258A98AB3}|BufeBeadandoProject.csproj|solutionrelative:soups\\creamsoup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{98ADE710-9989-46F8-9116-BA9258A98AB3}|BufeBeadandoProject.csproj|d:\\- egyetem\\4. f\u00E9l\u00E9v\\progtech\\elesproject\\progtechbeadando\\bufebeadandoproject\\soups\\beansoup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{98ADE710-9989-46F8-9116-BA9258A98AB3}|BufeBeadandoProject.csproj|solutionrelative:soups\\beansoup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{98ADE710-9989-46F8-9116-BA9258A98AB3}|BufeBeadandoProject.csproj|d:\\- egyetem\\4. f\u00E9l\u00E9v\\progtech\\elesproject\\progtechbeadando\\bufebeadandoproject\\factorys\\soups\\beansoupfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{98ADE710-9989-46F8-9116-BA9258A98AB3}|BufeBeadandoProject.csproj|solutionrelative:factorys\\soups\\beansoupfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{98ADE710-9989-46F8-9116-BA9258A98AB3}|BufeBeadandoProject.csproj|d:\\- egyetem\\4. f\u00E9l\u00E9v\\progtech\\elesproject\\progtechbeadando\\bufebeadandoproject\\interfaces\\soups\\isoup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{98ADE710-9989-46F8-9116-BA9258A98AB3}|BufeBeadandoProject.csproj|solutionrelative:interfaces\\soups\\isoup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{98ADE710-9989-46F8-9116-BA9258A98AB3}|BufeBeadandoProject.csproj|d:\\- egyetem\\4. f\u00E9l\u00E9v\\progtech\\elesproject\\progtechbeadando\\bufebeadandoproject\\menu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{98ADE710-9989-46F8-9116-BA9258A98AB3}|BufeBeadandoProject.csproj|solutionrelative:menu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{98ADE710-9989-46F8-9116-BA9258A98AB3}|BufeBeadandoProject.csproj|D:\\- Egyetem\\4. f\u00E9l\u00E9v\\Progtech\\ELESProject\\ProgtechBeadando\\BufeBeadandoProject\\userloginwindow.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{98ADE710-9989-46F8-9116-BA9258A98AB3}|BufeBeadandoProject.csproj|solutionrelative:userloginwindow.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{98ADE710-9989-46F8-9116-BA9258A98AB3}|BufeBeadandoProject.csproj|D:\\Suli\\Tant\u00E1rgyak\\4. f\u00E9l\u00E9v\\Programoz\u00E1si technol\u00F3gi\u00E1k gy\\Beadand\u00F3\\BufeBeadandoProject\\userloginwindow.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{98ADE710-9989-46F8-9116-BA9258A98AB3}|BufeBeadandoProject.csproj|D:\\- Egyetem\\4. f\u00E9l\u00E9v\\Progtech\\ELESProject\\ProgtechBeadando\\BufeBeadandoProject\\userloginwindow.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{98ADE710-9989-46F8-9116-BA9258A98AB3}|BufeBeadandoProject.csproj|solutionrelative:userloginwindow.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{98ADE710-9989-46F8-9116-BA9258A98AB3}|BufeBeadandoProject.csproj|D:\\Suli\\Tant\u00E1rgyak\\4. f\u00E9l\u00E9v\\Programoz\u00E1si technol\u00F3gi\u00E1k gy\\Beadand\u00F3\\BufeBeadandoProject\\foodorderwindow.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{98ADE710-9989-46F8-9116-BA9258A98AB3}|BufeBeadandoProject.csproj|d:\\- egyetem\\4. f\u00E9l\u00E9v\\progtech\\elesproject\\progtechbeadando\\bufebeadandoproject\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{98ADE710-9989-46F8-9116-BA9258A98AB3}|BufeBeadandoProject.csproj|solutionrelative:user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{98ADE710-9989-46F8-9116-BA9258A98AB3}|BufeBeadandoProject.csproj|d:\\- egyetem\\4. f\u00E9l\u00E9v\\progtech\\elesproject\\progtechbeadando\\bufebeadandoproject\\adminloginwindow.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{98ADE710-9989-46F8-9116-BA9258A98AB3}|BufeBeadandoProject.csproj|solutionrelative:adminloginwindow.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{98ADE710-9989-46F8-9116-BA9258A98AB3}|BufeBeadandoProject.csproj|d:\\- egyetem\\4. f\u00E9l\u00E9v\\progtech\\elesproject\\progtechbeadando\\bufebeadandoproject\\interfaces\\soups\\isoupfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{98ADE710-9989-46F8-9116-BA9258A98AB3}|BufeBeadandoProject.csproj|solutionrelative:interfaces\\soups\\isoupfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{98ADE710-9989-46F8-9116-BA9258A98AB3}|BufeBeadandoProject.csproj|d:\\- egyetem\\4. f\u00E9l\u00E9v\\progtech\\elesproject\\progtechbeadando\\bufebeadandoproject\\foodorderwindow.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{98ADE710-9989-46F8-9116-BA9258A98AB3}|BufeBeadandoProject.csproj|solutionrelative:foodorderwindow.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{98ADE710-9989-46F8-9116-BA9258A98AB3}|BufeBeadandoProject.csproj|D:\\- Egyetem\\4. f\u00E9l\u00E9v\\Progtech\\ELESProject\\ProgtechBeadando\\BufeBeadandoProject\\foodorderwindow.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{98ADE710-9989-46F8-9116-BA9258A98AB3}|BufeBeadandoProject.csproj|solutionrelative:foodorderwindow.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{98ADE710-9989-46F8-9116-BA9258A98AB3}|BufeBeadandoProject.csproj|d:\\- egyetem\\4. f\u00E9l\u00E9v\\progtech\\elesproject\\progtechbeadando\\bufebeadandoproject\\adminloginwindow.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{98ADE710-9989-46F8-9116-BA9258A98AB3}|BufeBeadandoProject.csproj|solutionrelative:adminloginwindow.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     }
   ],
   "DocumentGroupContainers": [
@@ -26,52 +130,389 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 17,
           "Children": [
             {
               "$type": "Document",
               "DocumentIndex": 1,
+              "Title": "ZucchiniSoupFactory.cs",
+              "DocumentMoniker": "D:\\- Egyetem\\4. f\u00E9l\u00E9v\\Progtech\\ELESProject\\ProgtechBeadando\\BufeBeadandoProject\\Factorys\\Soups\\ZucchiniSoupFactory.cs",
+              "RelativeDocumentMoniker": "Factorys\\Soups\\ZucchiniSoupFactory.cs",
+              "ToolTip": "D:\\- Egyetem\\4. f\u00E9l\u00E9v\\Progtech\\ELESProject\\ProgtechBeadando\\BufeBeadandoProject\\Factorys\\Soups\\ZucchiniSoupFactory.cs",
+              "RelativeToolTip": "Factorys\\Soups\\ZucchiniSoupFactory.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAjAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-25T15:16:50.893Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "TomatoSoupFactory.cs",
+              "DocumentMoniker": "D:\\- Egyetem\\4. f\u00E9l\u00E9v\\Progtech\\ELESProject\\ProgtechBeadando\\BufeBeadandoProject\\Factorys\\Soups\\TomatoSoupFactory.cs",
+              "RelativeDocumentMoniker": "Factorys\\Soups\\TomatoSoupFactory.cs",
+              "ToolTip": "D:\\- Egyetem\\4. f\u00E9l\u00E9v\\Progtech\\ELESProject\\ProgtechBeadando\\BufeBeadandoProject\\Factorys\\Soups\\TomatoSoupFactory.cs",
+              "RelativeToolTip": "Factorys\\Soups\\TomatoSoupFactory.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAhAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-25T15:16:16.085Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "SpinachSoupFactory.cs",
+              "DocumentMoniker": "D:\\- Egyetem\\4. f\u00E9l\u00E9v\\Progtech\\ELESProject\\ProgtechBeadando\\BufeBeadandoProject\\Factorys\\Soups\\SpinachSoupFactory.cs",
+              "RelativeDocumentMoniker": "Factorys\\Soups\\SpinachSoupFactory.cs",
+              "ToolTip": "D:\\- Egyetem\\4. f\u00E9l\u00E9v\\Progtech\\ELESProject\\ProgtechBeadando\\BufeBeadandoProject\\Factorys\\Soups\\SpinachSoupFactory.cs",
+              "RelativeToolTip": "Factorys\\Soups\\SpinachSoupFactory.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAiAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-25T15:15:57.93Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "PeaSoupFactory.cs",
+              "DocumentMoniker": "D:\\- Egyetem\\4. f\u00E9l\u00E9v\\Progtech\\ELESProject\\ProgtechBeadando\\BufeBeadandoProject\\Factorys\\Soups\\PeaSoupFactory.cs",
+              "RelativeDocumentMoniker": "Factorys\\Soups\\PeaSoupFactory.cs",
+              "ToolTip": "D:\\- Egyetem\\4. f\u00E9l\u00E9v\\Progtech\\ELESProject\\ProgtechBeadando\\BufeBeadandoProject\\Factorys\\Soups\\PeaSoupFactory.cs",
+              "RelativeToolTip": "Factorys\\Soups\\PeaSoupFactory.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAeAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-25T15:15:33.589Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "LentilSoupFactory.cs",
+              "DocumentMoniker": "D:\\- Egyetem\\4. f\u00E9l\u00E9v\\Progtech\\ELESProject\\ProgtechBeadando\\BufeBeadandoProject\\Factorys\\Soups\\LentilSoupFactory.cs",
+              "RelativeDocumentMoniker": "Factorys\\Soups\\LentilSoupFactory.cs",
+              "ToolTip": "D:\\- Egyetem\\4. f\u00E9l\u00E9v\\Progtech\\ELESProject\\ProgtechBeadando\\BufeBeadandoProject\\Factorys\\Soups\\LentilSoupFactory.cs",
+              "RelativeToolTip": "Factorys\\Soups\\LentilSoupFactory.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAhAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-25T15:15:03.52Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "GoulashSoupFactory.cs",
+              "DocumentMoniker": "D:\\- Egyetem\\4. f\u00E9l\u00E9v\\Progtech\\ELESProject\\ProgtechBeadando\\BufeBeadandoProject\\Factorys\\Soups\\GoulashSoupFactory.cs",
+              "RelativeDocumentMoniker": "Factorys\\Soups\\GoulashSoupFactory.cs",
+              "ToolTip": "D:\\- Egyetem\\4. f\u00E9l\u00E9v\\Progtech\\ELESProject\\ProgtechBeadando\\BufeBeadandoProject\\Factorys\\Soups\\GoulashSoupFactory.cs",
+              "RelativeToolTip": "Factorys\\Soups\\GoulashSoupFactory.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAA0AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-25T15:14:22.557Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "CabbageSoupFactory.cs",
+              "DocumentMoniker": "D:\\- Egyetem\\4. f\u00E9l\u00E9v\\Progtech\\ELESProject\\ProgtechBeadando\\BufeBeadandoProject\\Factorys\\Soups\\CabbageSoupFactory.cs",
+              "RelativeDocumentMoniker": "Factorys\\Soups\\CabbageSoupFactory.cs",
+              "ToolTip": "D:\\- Egyetem\\4. f\u00E9l\u00E9v\\Progtech\\ELESProject\\ProgtechBeadando\\BufeBeadandoProject\\Factorys\\Soups\\CabbageSoupFactory.cs",
+              "RelativeToolTip": "Factorys\\Soups\\CabbageSoupFactory.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-25T15:13:32.474Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "CarrotCreamSoupFactory.cs",
+              "DocumentMoniker": "D:\\- Egyetem\\4. f\u00E9l\u00E9v\\Progtech\\ELESProject\\ProgtechBeadando\\BufeBeadandoProject\\Factorys\\Soups\\CarrotCreamSoupFactory.cs",
+              "RelativeDocumentMoniker": "Factorys\\Soups\\CarrotCreamSoupFactory.cs",
+              "ToolTip": "D:\\- Egyetem\\4. f\u00E9l\u00E9v\\Progtech\\ELESProject\\ProgtechBeadando\\BufeBeadandoProject\\Factorys\\Soups\\CarrotCreamSoupFactory.cs",
+              "RelativeToolTip": "Factorys\\Soups\\CarrotCreamSoupFactory.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAhAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-25T15:13:03.73Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "CreamSoupFactory.cs",
+              "DocumentMoniker": "D:\\- Egyetem\\4. f\u00E9l\u00E9v\\Progtech\\ELESProject\\ProgtechBeadando\\BufeBeadandoProject\\Factorys\\Soups\\CreamSoupFactory.cs",
+              "RelativeDocumentMoniker": "Factorys\\Soups\\CreamSoupFactory.cs",
+              "ToolTip": "D:\\- Egyetem\\4. f\u00E9l\u00E9v\\Progtech\\ELESProject\\ProgtechBeadando\\BufeBeadandoProject\\Factorys\\Soups\\CreamSoupFactory.cs",
+              "RelativeToolTip": "Factorys\\Soups\\CreamSoupFactory.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-25T15:12:42.59Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "CarrotCreamSoup.cs",
+              "DocumentMoniker": "D:\\- Egyetem\\4. f\u00E9l\u00E9v\\Progtech\\ELESProject\\ProgtechBeadando\\BufeBeadandoProject\\Soups\\CarrotCreamSoup.cs",
+              "RelativeDocumentMoniker": "Soups\\CarrotCreamSoup.cs",
+              "ToolTip": "D:\\- Egyetem\\4. f\u00E9l\u00E9v\\Progtech\\ELESProject\\ProgtechBeadando\\BufeBeadandoProject\\Soups\\CarrotCreamSoup.cs",
+              "RelativeToolTip": "Soups\\CarrotCreamSoup.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAiAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-25T15:12:10.436Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "ZucchiniSoup.cs",
+              "DocumentMoniker": "D:\\- Egyetem\\4. f\u00E9l\u00E9v\\Progtech\\ELESProject\\ProgtechBeadando\\BufeBeadandoProject\\Soups\\ZucchiniSoup.cs",
+              "RelativeDocumentMoniker": "Soups\\ZucchiniSoup.cs",
+              "ToolTip": "D:\\- Egyetem\\4. f\u00E9l\u00E9v\\Progtech\\ELESProject\\ProgtechBeadando\\BufeBeadandoProject\\Soups\\ZucchiniSoup.cs",
+              "RelativeToolTip": "Soups\\ZucchiniSoup.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAhAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-25T15:11:40.501Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "SpinachSoup.cs",
+              "DocumentMoniker": "D:\\- Egyetem\\4. f\u00E9l\u00E9v\\Progtech\\ELESProject\\ProgtechBeadando\\BufeBeadandoProject\\Soups\\SpinachSoup.cs",
+              "RelativeDocumentMoniker": "Soups\\SpinachSoup.cs",
+              "ToolTip": "D:\\- Egyetem\\4. f\u00E9l\u00E9v\\Progtech\\ELESProject\\ProgtechBeadando\\BufeBeadandoProject\\Soups\\SpinachSoup.cs",
+              "RelativeToolTip": "Soups\\SpinachSoup.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAfAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-25T15:11:09.725Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "LentilSoup.cs",
+              "DocumentMoniker": "D:\\- Egyetem\\4. f\u00E9l\u00E9v\\Progtech\\ELESProject\\ProgtechBeadando\\BufeBeadandoProject\\Soups\\LentilSoup.cs",
+              "RelativeDocumentMoniker": "Soups\\LentilSoup.cs",
+              "ToolTip": "D:\\- Egyetem\\4. f\u00E9l\u00E9v\\Progtech\\ELESProject\\ProgtechBeadando\\BufeBeadandoProject\\Soups\\LentilSoup.cs",
+              "RelativeToolTip": "Soups\\LentilSoup.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAfAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-25T15:10:28.547Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "GoulashSoup.cs",
+              "DocumentMoniker": "D:\\- Egyetem\\4. f\u00E9l\u00E9v\\Progtech\\ELESProject\\ProgtechBeadando\\BufeBeadandoProject\\Soups\\GoulashSoup.cs",
+              "RelativeDocumentMoniker": "Soups\\GoulashSoup.cs",
+              "ToolTip": "D:\\- Egyetem\\4. f\u00E9l\u00E9v\\Progtech\\ELESProject\\ProgtechBeadando\\BufeBeadandoProject\\Soups\\GoulashSoup.cs",
+              "RelativeToolTip": "Soups\\GoulashSoup.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAfAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-25T15:06:06.294Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "TomatoSoup.cs",
+              "DocumentMoniker": "D:\\- Egyetem\\4. f\u00E9l\u00E9v\\Progtech\\ELESProject\\ProgtechBeadando\\BufeBeadandoProject\\Soups\\TomatoSoup.cs",
+              "RelativeDocumentMoniker": "Soups\\TomatoSoup.cs",
+              "ToolTip": "D:\\- Egyetem\\4. f\u00E9l\u00E9v\\Progtech\\ELESProject\\ProgtechBeadando\\BufeBeadandoProject\\Soups\\TomatoSoup.cs",
+              "RelativeToolTip": "Soups\\TomatoSoup.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAjAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-25T15:05:20.39Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "CreamSoup.cs",
+              "DocumentMoniker": "D:\\- Egyetem\\4. f\u00E9l\u00E9v\\Progtech\\ELESProject\\ProgtechBeadando\\BufeBeadandoProject\\Soups\\CreamSoup.cs",
+              "RelativeDocumentMoniker": "Soups\\CreamSoup.cs",
+              "ToolTip": "D:\\- Egyetem\\4. f\u00E9l\u00E9v\\Progtech\\ELESProject\\ProgtechBeadando\\BufeBeadandoProject\\Soups\\CreamSoup.cs",
+              "RelativeToolTip": "Soups\\CreamSoup.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-25T15:03:29.479Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "PeaSoup.cs",
+              "DocumentMoniker": "D:\\- Egyetem\\4. f\u00E9l\u00E9v\\Progtech\\ELESProject\\ProgtechBeadando\\BufeBeadandoProject\\Soups\\PeaSoup.cs",
+              "RelativeDocumentMoniker": "Soups\\PeaSoup.cs",
+              "ToolTip": "D:\\- Egyetem\\4. f\u00E9l\u00E9v\\Progtech\\ELESProject\\ProgtechBeadando\\BufeBeadandoProject\\Soups\\PeaSoup.cs",
+              "RelativeToolTip": "Soups\\PeaSoup.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAkAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-25T15:03:19.877Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Menu.cs",
+              "DocumentMoniker": "D:\\- Egyetem\\4. f\u00E9l\u00E9v\\Progtech\\ELESProject\\ProgtechBeadando\\BufeBeadandoProject\\Menu.cs",
+              "RelativeDocumentMoniker": "Menu.cs",
+              "ToolTip": "D:\\- Egyetem\\4. f\u00E9l\u00E9v\\Progtech\\ELESProject\\ProgtechBeadando\\BufeBeadandoProject\\Menu.cs",
+              "RelativeToolTip": "Menu.cs",
+              "ViewState": "AQIAABgAAAAAAAAAAAAcwDgAAAAxAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-25T13:40:15.629Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "Menu.cs [Design]",
+              "DocumentMoniker": "D:\\- Egyetem\\4. f\u00E9l\u00E9v\\Progtech\\ELESProject\\ProgtechBeadando\\BufeBeadandoProject\\Menu.cs",
+              "RelativeDocumentMoniker": "Menu.cs",
+              "ToolTip": "D:\\- Egyetem\\4. f\u00E9l\u00E9v\\Progtech\\ELESProject\\ProgtechBeadando\\BufeBeadandoProject\\Menu.cs [Design]",
+              "RelativeToolTip": "Menu.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-25T13:39:39.944Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "BeanSoupFactory.cs",
+              "DocumentMoniker": "D:\\- Egyetem\\4. f\u00E9l\u00E9v\\Progtech\\ELESProject\\ProgtechBeadando\\BufeBeadandoProject\\Factorys\\Soups\\BeanSoupFactory.cs",
+              "RelativeDocumentMoniker": "Factorys\\Soups\\BeanSoupFactory.cs",
+              "ToolTip": "D:\\- Egyetem\\4. f\u00E9l\u00E9v\\Progtech\\ELESProject\\ProgtechBeadando\\BufeBeadandoProject\\Factorys\\Soups\\BeanSoupFactory.cs",
+              "RelativeToolTip": "Factorys\\Soups\\BeanSoupFactory.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAxAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-25T13:38:47.839Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "BeanSoup.cs",
+              "DocumentMoniker": "D:\\- Egyetem\\4. f\u00E9l\u00E9v\\Progtech\\ELESProject\\ProgtechBeadando\\BufeBeadandoProject\\Soups\\BeanSoup.cs",
+              "RelativeDocumentMoniker": "Soups\\BeanSoup.cs",
+              "ToolTip": "D:\\- Egyetem\\4. f\u00E9l\u00E9v\\Progtech\\ELESProject\\ProgtechBeadando\\BufeBeadandoProject\\Soups\\BeanSoup.cs",
+              "RelativeToolTip": "Soups\\BeanSoup.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-25T13:37:34.813Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "ISoup.cs",
+              "DocumentMoniker": "D:\\- Egyetem\\4. f\u00E9l\u00E9v\\Progtech\\ELESProject\\ProgtechBeadando\\BufeBeadandoProject\\Interfaces\\Soups\\ISoup.cs",
+              "RelativeDocumentMoniker": "Interfaces\\Soups\\ISoup.cs",
+              "ToolTip": "D:\\- Egyetem\\4. f\u00E9l\u00E9v\\Progtech\\ELESProject\\ProgtechBeadando\\BufeBeadandoProject\\Interfaces\\Soups\\ISoup.cs",
+              "RelativeToolTip": "Interfaces\\Soups\\ISoup.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-25T13:36:40.599Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "User.cs",
+              "DocumentMoniker": "D:\\- Egyetem\\4. f\u00E9l\u00E9v\\Progtech\\ELESProject\\ProgtechBeadando\\BufeBeadandoProject\\User.cs",
+              "RelativeDocumentMoniker": "User.cs",
+              "ToolTip": "D:\\- Egyetem\\4. f\u00E9l\u00E9v\\Progtech\\ELESProject\\ProgtechBeadando\\BufeBeadandoProject\\User.cs",
+              "RelativeToolTip": "User.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-25T13:30:33.133Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "AdminLoginWindow.cs",
+              "DocumentMoniker": "D:\\- Egyetem\\4. f\u00E9l\u00E9v\\Progtech\\ELESProject\\ProgtechBeadando\\BufeBeadandoProject\\AdminLoginWindow.cs",
+              "RelativeDocumentMoniker": "AdminLoginWindow.cs",
+              "ToolTip": "D:\\- Egyetem\\4. f\u00E9l\u00E9v\\Progtech\\ELESProject\\ProgtechBeadando\\BufeBeadandoProject\\AdminLoginWindow.cs",
+              "RelativeToolTip": "AdminLoginWindow.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAAmAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-25T13:29:26.481Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "AdminLoginWindow.cs [Design]",
+              "DocumentMoniker": "D:\\- Egyetem\\4. f\u00E9l\u00E9v\\Progtech\\ELESProject\\ProgtechBeadando\\BufeBeadandoProject\\AdminLoginWindow.cs",
+              "RelativeDocumentMoniker": "AdminLoginWindow.cs",
+              "ToolTip": "D:\\- Egyetem\\4. f\u00E9l\u00E9v\\Progtech\\ELESProject\\ProgtechBeadando\\BufeBeadandoProject\\AdminLoginWindow.cs [Design]",
+              "RelativeToolTip": "AdminLoginWindow.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-25T13:29:24.254Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
               "Title": "UserLoginWindow.cs",
-              "DocumentMoniker": "D:\\Suli\\Tant\u00E1rgyak\\4. f\u00E9l\u00E9v\\Programoz\u00E1si technol\u00F3gi\u00E1k gy\\Beadand\u00F3\\BufeBeadandoProject\\UserLoginWindow.cs",
+              "DocumentMoniker": "D:\\- Egyetem\\4. f\u00E9l\u00E9v\\Progtech\\ELESProject\\ProgtechBeadando\\BufeBeadandoProject\\UserLoginWindow.cs",
               "RelativeDocumentMoniker": "UserLoginWindow.cs",
-              "ToolTip": "D:\\Suli\\Tant\u00E1rgyak\\4. f\u00E9l\u00E9v\\Programoz\u00E1si technol\u00F3gi\u00E1k gy\\Beadand\u00F3\\BufeBeadandoProject\\UserLoginWindow.cs",
+              "ToolTip": "D:\\- Egyetem\\4. f\u00E9l\u00E9v\\Progtech\\ELESProject\\ProgtechBeadando\\BufeBeadandoProject\\UserLoginWindow.cs",
               "RelativeToolTip": "UserLoginWindow.cs",
-              "ViewState": "AQIAADkAAAAAAAAAAAAAAEUAAAAJAAAA",
+              "ViewState": "AQIAAEoAAAAAAAAAAAAlwGcAAAA9AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-05-24T22:58:17.679Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 23,
               "Title": "UserLoginWindow.cs [Design]",
-              "DocumentMoniker": "D:\\Suli\\Tant\u00E1rgyak\\4. f\u00E9l\u00E9v\\Programoz\u00E1si technol\u00F3gi\u00E1k gy\\Beadand\u00F3\\BufeBeadandoProject\\UserLoginWindow.cs",
+              "DocumentMoniker": "D:\\- Egyetem\\4. f\u00E9l\u00E9v\\Progtech\\ELESProject\\ProgtechBeadando\\BufeBeadandoProject\\UserLoginWindow.cs",
               "RelativeDocumentMoniker": "UserLoginWindow.cs",
-              "ToolTip": "D:\\Suli\\Tant\u00E1rgyak\\4. f\u00E9l\u00E9v\\Programoz\u00E1si technol\u00F3gi\u00E1k gy\\Beadand\u00F3\\BufeBeadandoProject\\UserLoginWindow.cs [Design]",
+              "ToolTip": "D:\\- Egyetem\\4. f\u00E9l\u00E9v\\Progtech\\ELESProject\\ProgtechBeadando\\BufeBeadandoProject\\UserLoginWindow.cs [Design]",
               "RelativeToolTip": "UserLoginWindow.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-24T22:58:15.777Z"
+              "WhenOpened": "2024-05-24T22:58:15.777Z",
+              "EditorCaption": " [Design]"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 26,
+              "Title": "ISoupFactory.cs",
+              "DocumentMoniker": "D:\\- Egyetem\\4. f\u00E9l\u00E9v\\Progtech\\ELESProject\\ProgtechBeadando\\BufeBeadandoProject\\Interfaces\\Soups\\ISoupFactory.cs",
+              "RelativeDocumentMoniker": "Interfaces\\Soups\\ISoupFactory.cs",
+              "ToolTip": "D:\\- Egyetem\\4. f\u00E9l\u00E9v\\Progtech\\ELESProject\\ProgtechBeadando\\BufeBeadandoProject\\Interfaces\\Soups\\ISoupFactory.cs",
+              "RelativeToolTip": "Interfaces\\Soups\\ISoupFactory.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAjAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-25T13:38:24.647Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
               "Title": "FoodOrderWindow.cs",
-              "DocumentMoniker": "D:\\Suli\\Tant\u00E1rgyak\\4. f\u00E9l\u00E9v\\Programoz\u00E1si technol\u00F3gi\u00E1k gy\\Beadand\u00F3\\BufeBeadandoProject\\FoodOrderWindow.cs",
+              "DocumentMoniker": "D:\\- Egyetem\\4. f\u00E9l\u00E9v\\Progtech\\ELESProject\\ProgtechBeadando\\BufeBeadandoProject\\FoodOrderWindow.cs",
               "RelativeDocumentMoniker": "FoodOrderWindow.cs",
-              "ToolTip": "D:\\Suli\\Tant\u00E1rgyak\\4. f\u00E9l\u00E9v\\Programoz\u00E1si technol\u00F3gi\u00E1k gy\\Beadand\u00F3\\BufeBeadandoProject\\FoodOrderWindow.cs",
+              "ToolTip": "D:\\- Egyetem\\4. f\u00E9l\u00E9v\\Progtech\\ELESProject\\ProgtechBeadando\\BufeBeadandoProject\\FoodOrderWindow.cs",
               "RelativeToolTip": "FoodOrderWindow.cs",
-              "ViewState": "AQIAAH8AAAAAAAAAAAAAwJQAAAAAAAAA",
+              "ViewState": "AQIAAIMAAAAAAAAAAAAAAJQAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-05-24T16:31:56.733Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 28,
               "Title": "FoodOrderWindow.cs [Design]",
-              "DocumentMoniker": "D:\\Suli\\Tant\u00E1rgyak\\4. f\u00E9l\u00E9v\\Programoz\u00E1si technol\u00F3gi\u00E1k gy\\Beadand\u00F3\\BufeBeadandoProject\\FoodOrderWindow.cs",
+              "DocumentMoniker": "D:\\- Egyetem\\4. f\u00E9l\u00E9v\\Progtech\\ELESProject\\ProgtechBeadando\\BufeBeadandoProject\\FoodOrderWindow.cs",
               "RelativeDocumentMoniker": "FoodOrderWindow.cs",
-              "ToolTip": "D:\\Suli\\Tant\u00E1rgyak\\4. f\u00E9l\u00E9v\\Programoz\u00E1si technol\u00F3gi\u00E1k gy\\Beadand\u00F3\\BufeBeadandoProject\\FoodOrderWindow.cs [Design]",
+              "ToolTip": "D:\\- Egyetem\\4. f\u00E9l\u00E9v\\Progtech\\ELESProject\\ProgtechBeadando\\BufeBeadandoProject\\FoodOrderWindow.cs [Design]",
               "RelativeToolTip": "FoodOrderWindow.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-05-24T16:31:55.864Z",

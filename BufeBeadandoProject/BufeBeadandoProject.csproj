@@ -65,6 +65,15 @@
       <DependentUpon>AdminLoginWindow.cs</DependentUpon>
     </Compile>
     <Compile Include="DessertDecorator.cs" />
+    <Compile Include="Factorys\Soups\CabbageSoupFactory.cs" />
+    <Compile Include="Factorys\Soups\CarrotCreamSoupFactory.cs" />
+    <Compile Include="Factorys\Soups\CreamSoupFactory.cs" />
+    <Compile Include="Factorys\Soups\GoulashSoupFactory.cs" />
+    <Compile Include="Factorys\Soups\LentilSoupFactory.cs" />
+    <Compile Include="Factorys\Soups\PeaSoupFactory.cs" />
+    <Compile Include="Factorys\Soups\SpinachSoupFactory.cs" />
+    <Compile Include="Factorys\Soups\TomatoSoupFactory.cs" />
+    <Compile Include="Factorys\Soups\ZucchiniSoupFactory.cs" />
     <Compile Include="FoodOrderWindow.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -73,6 +82,13 @@
     </Compile>
     <Compile Include="ICHBAndCBEvenetSubsricbe.cs" />
     <Compile Include="IExtra.cs" />
+    <Compile Include="Interfaces\Soups\ISoupFactory.cs" />
+    <Compile Include="Menu.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Menu.Designer.cs">
+      <DependentUpon>Menu.cs</DependentUpon>
+    </Compile>
     <Compile Include="MenuDecorator.cs" />
     <Compile Include="PepperDecorator.cs" />
     <Compile Include="RegWindow.cs">
@@ -83,6 +99,18 @@
     </Compile>
     <Compile Include="SimpleMenu.cs" />
     <Compile Include="SaltDecorator.cs" />
+    <Compile Include="Interfaces\Soups\ISoup.cs" />
+    <Compile Include="Soups\BeanSoup.cs" />
+    <Compile Include="Factorys\Soups\BeanSoupFactory.cs" />
+    <Compile Include="Soups\CabbageSoup.cs" />
+    <Compile Include="Soups\CarrotCreamSoup.cs" />
+    <Compile Include="Soups\CreamSoup.cs" />
+    <Compile Include="Soups\GoulashSoup.cs" />
+    <Compile Include="Soups\LentilSoup.cs" />
+    <Compile Include="Soups\PeaSoup.cs" />
+    <Compile Include="Soups\SpinachSoup.cs" />
+    <Compile Include="Soups\TomatoSoup.cs" />
+    <Compile Include="Soups\ZucchiniSoup.cs" />
     <Compile Include="UserLoginWindow.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -103,6 +131,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="FoodOrderWindow.resx">
       <DependentUpon>FoodOrderWindow.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Menu.resx">
+      <DependentUpon>Menu.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
