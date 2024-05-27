@@ -13,19 +13,21 @@ using System.Windows.Forms;
 
 namespace BufeBeadandoProject
 {
-    public partial class Menu : Form
+    public partial class MenuWindow : Form
     {
         private ISoupFactory soupFactory;
         private List<ISoup> soups;
 
-        public Menu()
+        public List<ISoup> GetSoups() { return soups; }
+
+        public MenuWindow()
         {
             InitializeComponent();
             soups = new List<ISoup>();
             InitializeSoups();
         }
 
-        private void InitializeSoups()
+        public void InitializeSoups()
         {
             soupFactory = new BeanSoupFactory();
             soups.Add(soupFactory.CreateSoup());

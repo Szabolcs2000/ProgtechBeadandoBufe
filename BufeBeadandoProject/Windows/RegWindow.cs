@@ -80,6 +80,9 @@ namespace BufeBeadandoProject
                     File.AppendAllText(filePath, csvLine);
                     LB_ErrorMessage.Text = "Adatok sikeresen elmentve.";
                     LB_ErrorMessage.ForeColor = System.Drawing.Color.Green;
+
+                    LogForReg logForReg = new LogForReg();
+                    logForReg.Log("Információ", TB_RegName.Text);
                 }
                 catch (Exception ex)
                 {

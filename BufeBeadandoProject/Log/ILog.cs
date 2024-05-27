@@ -4,9 +4,10 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace BufeBeadandoProject.Soups
+namespace BufeBeadandoProject
 {
-    public interface ISoup
+    internal interface ILog
     {
+        void Log(string messageType, string name);
     }
 }

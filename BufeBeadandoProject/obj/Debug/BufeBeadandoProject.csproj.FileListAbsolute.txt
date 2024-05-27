@@ -29,3 +29,19 @@ D:\- Egyetem\4. félév\Progtech\ELESProject\ProgtechBeadando\BufeBeadandoProjec
 D:\- Egyetem\4. félév\Progtech\ELESProject\ProgtechBeadando\BufeBeadandoProject\obj\Debug\BufeBeadandoProject.exe
 D:\- Egyetem\4. félév\Progtech\ELESProject\ProgtechBeadando\BufeBeadandoProject\obj\Debug\BufeBeadandoProject.pdb
 D:\- Egyetem\4. félév\Progtech\ELESProject\ProgtechBeadando\BufeBeadandoProject\obj\Debug\BufeBeadandoProject.Menu.resources
+D:\Suli\Tantárgyak\4. félév\Programozási technológiák gy\Beadando 2.0\ProgtechBeadandoBufe\BufeBeadandoProject\obj\Debug\BufeBeadandoProject.csproj.AssemblyReference.cache
+D:\Suli\Tantárgyak\4. félév\Programozási technológiák gy\Beadando 2.0\ProgtechBeadandoBufe\BufeBeadandoProject\obj\Debug\BufeBeadandoProject.AboutPaymentWindow.resources
+D:\Suli\Tantárgyak\4. félév\Programozási technológiák gy\Beadando 2.0\ProgtechBeadandoBufe\BufeBeadandoProject\obj\Debug\BufeBeadandoProject.AdminFoodEditWindow.resources
+D:\Suli\Tantárgyak\4. félév\Programozási technológiák gy\Beadando 2.0\ProgtechBeadandoBufe\BufeBeadandoProject\obj\Debug\BufeBeadandoProject.AdminLoginWindow.resources
+D:\Suli\Tantárgyak\4. félév\Programozási technológiák gy\Beadando 2.0\ProgtechBeadandoBufe\BufeBeadandoProject\obj\Debug\BufeBeadandoProject.FoodOrderWindow.resources
+D:\Suli\Tantárgyak\4. félév\Programozási technológiák gy\Beadando 2.0\ProgtechBeadandoBufe\BufeBeadandoProject\obj\Debug\BufeBeadandoProject.Properties.Resources.resources
+D:\Suli\Tantárgyak\4. félév\Programozási technológiák gy\Beadando 2.0\ProgtechBeadandoBufe\BufeBeadandoProject\obj\Debug\BufeBeadandoProject.RegWindow.resources
+D:\Suli\Tantárgyak\4. félév\Programozási technológiák gy\Beadando 2.0\ProgtechBeadandoBufe\BufeBeadandoProject\obj\Debug\BufeBeadandoProject.UserLoginWindow.resources
+D:\Suli\Tantárgyak\4. félév\Programozási technológiák gy\Beadando 2.0\ProgtechBeadandoBufe\BufeBeadandoProject\obj\Debug\BufeBeadandoProject.csproj.GenerateResource.cache
+D:\Suli\Tantárgyak\4. félév\Programozási technológiák gy\Beadando 2.0\ProgtechBeadandoBufe\BufeBeadandoProject\obj\Debug\BufeBeadandoProject.csproj.CoreCompileInputs.cache
+D:\Suli\Tantárgyak\4. félév\Programozási technológiák gy\Beadando 2.0\ProgtechBeadandoBufe\BufeBeadandoProject\obj\Debug\BufeBeadandoProject.exe
+D:\Suli\Tantárgyak\4. félév\Programozási technológiák gy\Beadando 2.0\ProgtechBeadandoBufe\BufeBeadandoProject\obj\Debug\BufeBeadandoProject.pdb
+D:\Suli\Tantárgyak\4. félév\Programozási technológiák gy\Beadando 2.0\ProgtechBeadandoBufe\BufeBeadandoProject\bin\Debug\BufeBeadandoProject.exe.config
+D:\Suli\Tantárgyak\4. félév\Programozási technológiák gy\Beadando 2.0\ProgtechBeadandoBufe\BufeBeadandoProject\bin\Debug\BufeBeadandoProject.exe
+D:\Suli\Tantárgyak\4. félév\Programozási technológiák gy\Beadando 2.0\ProgtechBeadandoBufe\BufeBeadandoProject\bin\Debug\BufeBeadandoProject.pdb
+D:\Suli\Tantárgyak\4. félév\Programozási technológiák gy\Beadando 2.0\ProgtechBeadandoBufe\BufeBeadandoProject\obj\Debug\BufeBeadandoProject.MenuWindow.resources

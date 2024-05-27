@@ -1,6 +1,6 @@
 ﻿namespace BufeBeadandoProject
 {
-    partial class Menu
+    partial class MenuWindow
     {
         /// <summary>
         /// Required designer variable.

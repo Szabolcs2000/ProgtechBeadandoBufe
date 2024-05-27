@@ -53,6 +53,8 @@ namespace BufeBeadandoProject
                 adminFoodEditWindow.FormClosed += (s, args) => this.Show();
                 adminFoodEditWindow.Show();
                 this.Hide();
+                LogForAdminLogin logForAdminLogin = new LogForAdminLogin();
+                logForAdminLogin.Log("Információ", TB_AdminName.Text);
             }
                 
             else

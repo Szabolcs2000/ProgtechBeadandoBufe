@@ -14,6 +14,42 @@ namespace BufeBeadandoProject
 {
     public partial class FoodOrderWindow : Form, ICHBAndCBEvenetSubsricbe
     {
+        private void ShowMealsForUser()
+        {
+            Random rnd = new Random();
+            MenuWindow menu = new MenuWindow();
+            menu.InitializeSoups();
+            int k = 0;
+
+            //do
+            //{
+            //    randomNumber = rnd.Next(0, menu.GetSoups().Count);
+            //    if (!(indexes.Contains(randomNumber)))
+            //    {                    
+            //        indexes[k] = randomNumber;
+            //        k++;
+            //    }
+            //} while (k < 5);
+
+            for (int i = 0; i < indexes.Length; i++)
+            {
+               
+                do
+                {
+                    randomNumber = rnd.Next(0, menu.GetSoups().Count);
+                } while (indexes.Contains(randomNumber)); 
+                indexes[i] = randomNumber;
+            }
+
+
+            TB_MondaySoup.Text = menu.GetSoups()[indexes[0]].ToString();
+            TB_TuesdaySoup.Text = menu.GetSoups()[indexes[1]].ToString();
+            TB_WednesdaySoup.Text = menu.GetSoups()[indexes[2]].ToString();
+            TB_ThursdaySoup.Text = menu.GetSoups()[indexes[3]].ToString();
+            TB_FridaySoup.Text = menu.GetSoups()[indexes[4]].ToString();
+        }
+
+
         private void SetDefaultFlavor()
         {
             CB_Monday.SelectedIndex = 0;
@@ -43,13 +79,15 @@ namespace BufeBeadandoProject
         }
 
         #region
+        private int[] indexes = new int[5];
         private string[] flavorings = new string[4] { "Nem kérek", "Só (+50 Ft)", "Bors (+60 Ft)", "Mindkettő (+100 Ft)" };
-        private int menuCounter = 0;
-        private int dessertCounter = 0;
-        private int noFlavorCounter = 0;
-        private int onlySaltCounter = 0;
-        private int onlyPepperCounter = 0;
-        private int bothFlavorCounter = 0;
+        private int menuCounter;
+        private int dessertCounter;
+        private int noFlavorCounter;
+        private int onlySaltCounter;
+        private int onlyPepperCounter;
+        private int bothFlavorCounter;
+        private int randomNumber;
         #endregion
 
         private void EnableCBS()
@@ -107,6 +145,7 @@ namespace BufeBeadandoProject
             }
             SetDefaultFlavor();
             CHBAndCBEvenetSubsricbe();
+            ShowMealsForUser();
         }
 
         private static FoodOrderWindow instance;
@@ -155,11 +194,13 @@ namespace BufeBeadandoProject
             aboutPaymentWindow.FormClosed += (s, args) => this.Show();
             aboutPaymentWindow.Show();
             this.Hide();
+            LogForPayment logForPayment = new LogForPayment();
+            logForPayment.Log("Információ","");
         }
 
         private void BTN_FoodOrdExit_Click(object sender, EventArgs e)
         {
             Application.Exit();
-        }
+        }                
     }
 }

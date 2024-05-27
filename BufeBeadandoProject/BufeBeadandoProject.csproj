@@ -46,25 +46,40 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="AboutPaymentWindow.cs">
+    <Compile Include="Log\ILog.cs" />
+    <Compile Include="Log\Update\LofForUpdateDessert.cs" />
+    <Compile Include="Log\Login and other\LogForAdminLogin.cs" />
+    <Compile Include="Log\Delete\LogForDeleteDessert.cs" />
+    <Compile Include="Log\Delete\LogForDeleteMeal.cs" />
+    <Compile Include="Log\Delete\LogForDeleteSoup.cs" />
+    <Compile Include="Log\Login and other\LogForExistingUser.cs" />
+    <Compile Include="Log\Login and other\LogForLogin.cs" />
+    <Compile Include="Log\New\LogForNewDessert.cs" />
+    <Compile Include="Log\New\LogForNewMeal.cs" />
+    <Compile Include="Log\New\LogForNewSoup.cs" />
+    <Compile Include="Log\Login and other\LogForPayment.cs" />
+    <Compile Include="Log\Login and other\LogForReg.cs" />
+    <Compile Include="Log\Update\LogForUpdateMeal.cs" />
+    <Compile Include="Log\Update\LogForUpdateSoup.cs" />
+    <Compile Include="Windows\AboutPaymentWindow.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="AboutPaymentWindow.Designer.cs">
+    <Compile Include="Windows\AboutPaymentWindow.Designer.cs">
       <DependentUpon>AboutPaymentWindow.cs</DependentUpon>
     </Compile>
-    <Compile Include="AdminFoodEditWindow.cs">
+    <Compile Include="Windows\AdminFoodEditWindow.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="AdminFoodEditWindow.Designer.cs">
+    <Compile Include="Windows\AdminFoodEditWindow.Designer.cs">
       <DependentUpon>AdminFoodEditWindow.cs</DependentUpon>
     </Compile>
-    <Compile Include="AdminLoginWindow.cs">
+    <Compile Include="Windows\AdminLoginWindow.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="AdminLoginWindow.Designer.cs">
+    <Compile Include="Windows\AdminLoginWindow.Designer.cs">
       <DependentUpon>AdminLoginWindow.cs</DependentUpon>
     </Compile>
-    <Compile Include="DessertDecorator.cs" />
+    <Compile Include="Decorator design pattern\DessertDecorator.cs" />
     <Compile Include="Factorys\Soup factorys\CabbageSoupFactory.cs" />
     <Compile Include="Factorys\Soup factorys\CarrotCreamSoupFactory.cs" />
     <Compile Include="Factorys\Soup factorys\CreamSoupFactory.cs" />
@@ -74,31 +89,31 @@
     <Compile Include="Factorys\Soup factorys\SpinachSoupFactory.cs" />
     <Compile Include="Factorys\Soup factorys\TomatoSoupFactory.cs" />
     <Compile Include="Factorys\Soup factorys\ZucchiniSoupFactory.cs" />
-    <Compile Include="FoodOrderWindow.cs">
+    <Compile Include="Windows\FoodOrderWindow.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="FoodOrderWindow.Designer.cs">
+    <Compile Include="Windows\FoodOrderWindow.Designer.cs">
       <DependentUpon>FoodOrderWindow.cs</DependentUpon>
     </Compile>
-    <Compile Include="ICHBAndCBEvenetSubsricbe.cs" />
-    <Compile Include="IExtra.cs" />
+    <Compile Include="Other classes\ICHBAndCBEvenetSubsricbe.cs" />
+    <Compile Include="Decorator design pattern\IExtra.cs" />
     <Compile Include="Interfaces\Soups\ISoupFactory.cs" />
-    <Compile Include="Menu.cs">
+    <Compile Include="Windows\MenuWindow.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Menu.Designer.cs">
-      <DependentUpon>Menu.cs</DependentUpon>
+    <Compile Include="Windows\MenuWindow.Designer.cs">
+      <DependentUpon>MenuWindow.cs</DependentUpon>
     </Compile>
-    <Compile Include="MenuDecorator.cs" />
-    <Compile Include="PepperDecorator.cs" />
-    <Compile Include="RegWindow.cs">
+    <Compile Include="Decorator design pattern\MenuDecorator.cs" />
+    <Compile Include="Decorator design pattern\PepperDecorator.cs" />
+    <Compile Include="Windows\RegWindow.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="RegWindow.Designer.cs">
+    <Compile Include="Windows\RegWindow.Designer.cs">
       <DependentUpon>RegWindow.cs</DependentUpon>
     </Compile>
-    <Compile Include="SimpleMenu.cs" />
-    <Compile Include="SaltDecorator.cs" />
+    <Compile Include="Decorator design pattern\SimpleMenu.cs" />
+    <Compile Include="Decorator design pattern\SaltDecorator.cs" />
     <Compile Include="Interfaces\Soups\ISoup.cs" />
     <Compile Include="Soups\BeanSoup.cs" />
     <Compile Include="Factorys\Soup factorys\BeanSoupFactory.cs" />
@@ -111,29 +126,29 @@
     <Compile Include="Soups\SpinachSoup.cs" />
     <Compile Include="Soups\TomatoSoup.cs" />
     <Compile Include="Soups\ZucchiniSoup.cs" />
-    <Compile Include="UserLoginWindow.cs">
+    <Compile Include="Windows\UserLoginWindow.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="UserLoginWindow.Designer.cs">
+    <Compile Include="Windows\UserLoginWindow.Designer.cs">
       <DependentUpon>UserLoginWindow.cs</DependentUpon>
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="User.cs" />
-    <EmbeddedResource Include="AboutPaymentWindow.resx">
+    <Compile Include="Other classes\User.cs" />
+    <EmbeddedResource Include="Windows\AboutPaymentWindow.resx">
       <DependentUpon>AboutPaymentWindow.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="AdminFoodEditWindow.resx">
+    <EmbeddedResource Include="Windows\AdminFoodEditWindow.resx">
       <DependentUpon>AdminFoodEditWindow.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="AdminLoginWindow.resx">
+    <EmbeddedResource Include="Windows\AdminLoginWindow.resx">
       <DependentUpon>AdminLoginWindow.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="FoodOrderWindow.resx">
+    <EmbeddedResource Include="Windows\FoodOrderWindow.resx">
       <DependentUpon>FoodOrderWindow.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Menu.resx">
-      <DependentUpon>Menu.cs</DependentUpon>
+    <EmbeddedResource Include="Windows\MenuWindow.resx">
+      <DependentUpon>MenuWindow.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
@@ -144,10 +159,10 @@
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
-    <EmbeddedResource Include="RegWindow.resx">
+    <EmbeddedResource Include="Windows\RegWindow.resx">
       <DependentUpon>RegWindow.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="UserLoginWindow.resx">
+    <EmbeddedResource Include="Windows\UserLoginWindow.resx">
       <DependentUpon>UserLoginWindow.cs</DependentUpon>
     </EmbeddedResource>
     <None Include="Properties\Settings.settings">
@@ -163,5 +178,6 @@
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

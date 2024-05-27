@@ -75,6 +75,8 @@ namespace BufeBeadandoProject
                     foodOrderWindow.FormClosed += (s, args) => this.Show();
                     foodOrderWindow.Show();
                     this.Hide();
+                    LogForLogin logForLogin = new LogForLogin();
+                    logForLogin.Log("Információ", TB_UserName.Text);
                     break;
                 }
 
@@ -83,6 +85,7 @@ namespace BufeBeadandoProject
                     LB_UserErrorMessage.Text = "Hibás felhasználónév vagy jelszó!";
                 }                    
             }
+           
         }
 
         private void BTN_UserShowAndHidePW_Click(object sender, EventArgs e)
@@ -96,7 +99,7 @@ namespace BufeBeadandoProject
 
         private void button1_Click(object sender, EventArgs e)
         {
-            Menu menu = new Menu();
+            MenuWindow menu = new MenuWindow();
             menu.FormClosed += (s, args) => this.Show();
             menu.Show();
             this.Hide();
