@@ -45,3 +45,19 @@ D:\Suli\Tantárgyak\4. félév\Programozási technológiák gy\Beadando 2.0\Prog
 D:\Suli\Tantárgyak\4. félév\Programozási technológiák gy\Beadando 2.0\ProgtechBeadandoBufe\BufeBeadandoProject\bin\Debug\BufeBeadandoProject.exe
 D:\Suli\Tantárgyak\4. félév\Programozási technológiák gy\Beadando 2.0\ProgtechBeadandoBufe\BufeBeadandoProject\bin\Debug\BufeBeadandoProject.pdb
 D:\Suli\Tantárgyak\4. félév\Programozási technológiák gy\Beadando 2.0\ProgtechBeadandoBufe\BufeBeadandoProject\obj\Debug\BufeBeadandoProject.MenuWindow.resources
+D:\- Egyetem\Progtech\ProgtechBeadandoBufe\BufeBeadandoProject\bin\Debug\BufeBeadandoProject.exe.config
+D:\- Egyetem\Progtech\ProgtechBeadandoBufe\BufeBeadandoProject\bin\Debug\BufeBeadandoProject.exe
+D:\- Egyetem\Progtech\ProgtechBeadandoBufe\BufeBeadandoProject\bin\Debug\BufeBeadandoProject.pdb
+D:\- Egyetem\Progtech\ProgtechBeadandoBufe\BufeBeadandoProject\obj\Debug\BufeBeadandoProject.csproj.AssemblyReference.cache
+D:\- Egyetem\Progtech\ProgtechBeadandoBufe\BufeBeadandoProject\obj\Debug\BufeBeadandoProject.AboutPaymentWindow.resources
+D:\- Egyetem\Progtech\ProgtechBeadandoBufe\BufeBeadandoProject\obj\Debug\BufeBeadandoProject.AdminFoodEditWindow.resources
+D:\- Egyetem\Progtech\ProgtechBeadandoBufe\BufeBeadandoProject\obj\Debug\BufeBeadandoProject.AdminLoginWindow.resources
+D:\- Egyetem\Progtech\ProgtechBeadandoBufe\BufeBeadandoProject\obj\Debug\BufeBeadandoProject.FoodOrderWindow.resources
+D:\- Egyetem\Progtech\ProgtechBeadandoBufe\BufeBeadandoProject\obj\Debug\BufeBeadandoProject.MenuWindow.resources
+D:\- Egyetem\Progtech\ProgtechBeadandoBufe\BufeBeadandoProject\obj\Debug\BufeBeadandoProject.Properties.Resources.resources
+D:\- Egyetem\Progtech\ProgtechBeadandoBufe\BufeBeadandoProject\obj\Debug\BufeBeadandoProject.RegWindow.resources
+D:\- Egyetem\Progtech\ProgtechBeadandoBufe\BufeBeadandoProject\obj\Debug\BufeBeadandoProject.UserLoginWindow.resources
+D:\- Egyetem\Progtech\ProgtechBeadandoBufe\BufeBeadandoProject\obj\Debug\BufeBeadandoProject.csproj.GenerateResource.cache
+D:\- Egyetem\Progtech\ProgtechBeadandoBufe\BufeBeadandoProject\obj\Debug\BufeBeadandoProject.csproj.CoreCompileInputs.cache
+D:\- Egyetem\Progtech\ProgtechBeadandoBufe\BufeBeadandoProject\obj\Debug\BufeBeadandoProject.exe
+D:\- Egyetem\Progtech\ProgtechBeadandoBufe\BufeBeadandoProject\obj\Debug\BufeBeadandoProject.pdb

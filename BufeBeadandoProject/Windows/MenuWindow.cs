@@ -1,14 +1,10 @@
-﻿using BufeBeadandoProject.Factorys.Soups;
+﻿using BufeBeadandoProject.Factorys.Entree_factorys;
+using BufeBeadandoProject.Factorys.Soups;
 using BufeBeadandoProject.Interfaces;
+using BufeBeadandoProject.Interfaces.Entrees;
 using BufeBeadandoProject.Soups;
 using System;
 using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
-using System.Drawing;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using System.Windows.Forms;
 
 namespace BufeBeadandoProject
@@ -16,15 +12,20 @@ namespace BufeBeadandoProject
     public partial class MenuWindow : Form
     {
         private ISoupFactory soupFactory;
+        private IEntreeFactory entreeFactory;
         private List<ISoup> soups;
+        private List<IEntree> entrees;
 
         public List<ISoup> GetSoups() { return soups; }
+        public List<IEntree> GetEntrees() { return entrees; }
 
         public MenuWindow()
         {
             InitializeComponent();
             soups = new List<ISoup>();
+            entrees = new List<IEntree>();
             InitializeSoups();
+            InitializeEntrees();
         }
 
         public void InitializeSoups()
@@ -61,18 +62,68 @@ namespace BufeBeadandoProject
 
         }
 
-        private void btn_soups_Click(object sender, EventArgs e)
+        public void InitializeEntrees()
         {
-            UpdateSoupList();
-            btn_soups.Enabled = false;
+            entreeFactory = new BeefStewFactory();
+            entrees.Add(entreeFactory.CreateEntree());
+
+            entreeFactory = new BreadedChickenFactory();
+            entrees.Add(entreeFactory.CreateEntree());
+
+            entreeFactory = new ChickenPaprikashFactory();
+            entrees.Add(entreeFactory.CreateEntree());
+
+            entreeFactory = new HungarianRatatouilleFactory();
+            entrees.Add(entreeFactory.CreateEntree());
+
+            entreeFactory = new LayeredPotatoesFactory();
+            entrees.Add(entreeFactory.CreateEntree());
+
+            entreeFactory = new PorkAndSauerkrautStewFactory();
+            entrees.Add(entreeFactory.CreateEntree());
+
+            entreeFactory = new PorkStewFactory();
+            entrees.Add(entreeFactory.CreateEntree());
+
+            entreeFactory = new RoastedChickenFactory();
+            entrees.Add(entreeFactory.CreateEntree());
+
+            entreeFactory = new StuffedCabbageFactory();
+            entrees.Add(entreeFactory.CreateEntree());
+
+            entreeFactory = new StuffedPeppersFactory();
+            entrees.Add(entreeFactory.CreateEntree());
         }
 
-        private void UpdateSoupList()
+        private void btn_soups_Click(object sender, EventArgs e)
+        {
+            UpdateSoupListSoup();
+            btn_soups.Enabled = false;
+            btn_Entrees.Enabled = true;
+        }
+
+        private void btn_Entrees_Click(object sender, EventArgs e)
+        {
+            UpdateSoupListEntree();
+            btn_Entrees.Enabled = false;
+            btn_soups.Enabled = true;
+        }
+
+        private void UpdateSoupListSoup()
         {
             listBox_result.Items.Clear();
             foreach (ISoup soup in soups)
             {
                 listBox_result.Items.Add(soup.ToString());
+            }
+        }
+
+        private void UpdateSoupListEntree()
+        {
+            listBox_result.Items.Clear();
+            foreach (IEntree entree in entrees)
+            {
+                listBox_result.Items.Add(entree.ToString());
             }
         }
 

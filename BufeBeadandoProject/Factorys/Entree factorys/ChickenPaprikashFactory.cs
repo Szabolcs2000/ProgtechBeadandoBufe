@@ -12,7 +12,7 @@ namespace BufeBeadandoProject.Factorys.Entree_factorys
     {
         public IEntree CreateEntree()
         {
-            return new BeefStew();
+            return new ChickenPaprikash();
         }
     }
 }

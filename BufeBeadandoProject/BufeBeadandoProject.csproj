@@ -46,6 +46,28 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Entree\BeefStew.cs" />
+    <Compile Include="Entree\BreadedChicken.cs" />
+    <Compile Include="Entree\ChickenPaprikash.cs" />
+    <Compile Include="Entree\HungarianRatatouille.cs" />
+    <Compile Include="Entree\LayeredPotatoes.cs" />
+    <Compile Include="Entree\PorkAndSauerkrautStew.cs" />
+    <Compile Include="Entree\PorkStew.cs" />
+    <Compile Include="Entree\RoastedChicken.cs" />
+    <Compile Include="Entree\StuffedCabbage.cs" />
+    <Compile Include="Entree\StuffedPeppers.cs" />
+    <Compile Include="Factorys\Entree factorys\BeefStewFactory.cs" />
+    <Compile Include="Factorys\Entree factorys\BreadedChickenFactory.cs" />
+    <Compile Include="Factorys\Entree factorys\ChickenPaprikashFactory.cs" />
+    <Compile Include="Factorys\Entree factorys\HungarianRatatouilleFactory.cs" />
+    <Compile Include="Factorys\Entree factorys\LayeredPotatoesFactory.cs" />
+    <Compile Include="Factorys\Entree factorys\PorkAndSauerkrautStewFactory.cs" />
+    <Compile Include="Factorys\Entree factorys\PorkStewFactory.cs" />
+    <Compile Include="Factorys\Entree factorys\RoastedChickenFactory.cs" />
+    <Compile Include="Factorys\Entree factorys\StuffedCabbageFactory.cs" />
+    <Compile Include="Factorys\Entree factorys\StuffedPeppersFactory.cs" />
+    <Compile Include="Interfaces\Entrees\IEntree.cs" />
+    <Compile Include="Interfaces\Entrees\IEntreeFactory.cs" />
     <Compile Include="Log\ILog.cs" />
     <Compile Include="Log\Update\LofForUpdateDessert.cs" />
     <Compile Include="Log\Login and other\LogForAdminLogin.cs" />

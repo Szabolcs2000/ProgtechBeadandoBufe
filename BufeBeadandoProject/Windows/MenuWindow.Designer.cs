@@ -33,6 +33,8 @@
             this.btn_soups = new System.Windows.Forms.Button();
             this.lbl_information = new System.Windows.Forms.Label();
             this.lbl_inf_result = new System.Windows.Forms.Label();
+            this.btn_Entrees = new System.Windows.Forms.Button();
+            this.button2 = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // listBox_result
@@ -74,6 +76,29 @@
             this.lbl_inf_result.Size = new System.Drawing.Size(0, 13);
             this.lbl_inf_result.TabIndex = 3;
             // 
+            // btn_Entrees
+            // 
+            this.btn_Entrees.AccessibleName = "";
+            this.btn_Entrees.BackColor = System.Drawing.Color.White;
+            this.btn_Entrees.Location = new System.Drawing.Point(296, 118);
+            this.btn_Entrees.Name = "btn_Entrees";
+            this.btn_Entrees.Size = new System.Drawing.Size(167, 52);
+            this.btn_Entrees.TabIndex = 4;
+            this.btn_Entrees.Text = "Főételek kilistázása";
+            this.btn_Entrees.UseVisualStyleBackColor = false;
+            this.btn_Entrees.Click += new System.EventHandler(this.btn_Entrees_Click);
+            // 
+            // button2
+            // 
+            this.button2.AccessibleName = "";
+            this.button2.BackColor = System.Drawing.Color.White;
+            this.button2.Location = new System.Drawing.Point(296, 203);
+            this.button2.Name = "button2";
+            this.button2.Size = new System.Drawing.Size(167, 52);
+            this.button2.TabIndex = 5;
+            this.button2.Text = "Levesek kilistázása";
+            this.button2.UseVisualStyleBackColor = false;
+            // 
             // MenuWindow
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -81,6 +106,8 @@
             this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.button2);
+            this.Controls.Add(this.btn_Entrees);
             this.Controls.Add(this.lbl_inf_result);
             this.Controls.Add(this.lbl_information);
             this.Controls.Add(this.btn_soups);
@@ -98,5 +125,7 @@
         private System.Windows.Forms.Button btn_soups;
         private System.Windows.Forms.Label lbl_information;
         private System.Windows.Forms.Label lbl_inf_result;
+        private System.Windows.Forms.Button btn_Entrees;
+        private System.Windows.Forms.Button button2;
     }
 }

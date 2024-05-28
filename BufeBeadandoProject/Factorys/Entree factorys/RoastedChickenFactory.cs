@@ -8,7 +8,7 @@ using System.Threading.Tasks;
 
 namespace BufeBeadandoProject.Factorys.Entree_factorys
 {
-    internal class RoastedChickenFactory : IEntree
+    internal class RoastedChickenFactory : IEntreeFactory
     {
         public IEntree CreateEntree()
         {

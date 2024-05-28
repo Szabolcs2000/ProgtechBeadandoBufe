@@ -9,6 +9,6 @@ namespace BufeBeadandoProject.Interfaces.Entrees
 {
     internal interface IEntreeFactory
     {
-        IEntree CreateSoup();
+        IEntree CreateEntree();
     }
 }

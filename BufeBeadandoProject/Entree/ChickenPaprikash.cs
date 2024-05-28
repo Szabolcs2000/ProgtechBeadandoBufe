@@ -11,7 +11,7 @@ namespace BufeBeadandoProject.Entree
     {
         public override string ToString()
         {
-            return "Marhapörkölt";
+            return "Paprikás csirke";
         }
     }
 }
