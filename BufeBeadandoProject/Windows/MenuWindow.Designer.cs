@@ -34,7 +34,7 @@
             this.lbl_information = new System.Windows.Forms.Label();
             this.lbl_inf_result = new System.Windows.Forms.Label();
             this.btn_Entrees = new System.Windows.Forms.Button();
-            this.button2 = new System.Windows.Forms.Button();
+            this.btn_desserts = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // listBox_result
@@ -88,16 +88,18 @@
             this.btn_Entrees.UseVisualStyleBackColor = false;
             this.btn_Entrees.Click += new System.EventHandler(this.btn_Entrees_Click);
             // 
-            // button2
+            // btn_desserts
             // 
-            this.button2.AccessibleName = "";
-            this.button2.BackColor = System.Drawing.Color.White;
-            this.button2.Location = new System.Drawing.Point(296, 203);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(167, 52);
-            this.button2.TabIndex = 5;
-            this.button2.Text = "Levesek kilistázása";
-            this.button2.UseVisualStyleBackColor = false;
+            this.btn_desserts.AccessibleName = "";
+            this.btn_desserts.BackColor = System.Drawing.Color.White;
+            this.btn_desserts.ForeColor = System.Drawing.SystemColors.ControlText;
+            this.btn_desserts.Location = new System.Drawing.Point(296, 203);
+            this.btn_desserts.Name = "btn_desserts";
+            this.btn_desserts.Size = new System.Drawing.Size(167, 52);
+            this.btn_desserts.TabIndex = 5;
+            this.btn_desserts.Text = "Desszertek kilistázása";
+            this.btn_desserts.UseVisualStyleBackColor = false;
+            this.btn_desserts.Click += new System.EventHandler(this.btn_desserts_Click);
             // 
             // MenuWindow
             // 
@@ -106,7 +108,7 @@
             this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(800, 450);
-            this.Controls.Add(this.button2);
+            this.Controls.Add(this.btn_desserts);
             this.Controls.Add(this.btn_Entrees);
             this.Controls.Add(this.lbl_inf_result);
             this.Controls.Add(this.lbl_information);
@@ -126,6 +128,6 @@
         private System.Windows.Forms.Label lbl_information;
         private System.Windows.Forms.Label lbl_inf_result;
         private System.Windows.Forms.Button btn_Entrees;
-        private System.Windows.Forms.Button button2;
+        private System.Windows.Forms.Button btn_desserts;
     }
 }

@@ -12,6 +12,21 @@
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
     <Deterministic>true</Deterministic>
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <PlatformTarget>AnyCPU</PlatformTarget>
@@ -46,16 +61,26 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Entree\BeefStew.cs" />
-    <Compile Include="Entree\BreadedChicken.cs" />
-    <Compile Include="Entree\ChickenPaprikash.cs" />
-    <Compile Include="Entree\HungarianRatatouille.cs" />
-    <Compile Include="Entree\LayeredPotatoes.cs" />
-    <Compile Include="Entree\PorkAndSauerkrautStew.cs" />
-    <Compile Include="Entree\PorkStew.cs" />
-    <Compile Include="Entree\RoastedChicken.cs" />
-    <Compile Include="Entree\StuffedCabbage.cs" />
-    <Compile Include="Entree\StuffedPeppers.cs" />
+    <Compile Include="Desserts\AppleStrudel.cs" />
+    <Compile Include="Desserts\DobosTorte.cs" />
+    <Compile Include="Desserts\GerbeaudSlice.cs" />
+    <Compile Include="Desserts\GoldenDumplings.cs" />
+    <Compile Include="Desserts\HoneyCake.cs" />
+    <Compile Include="Entrees\BeefStew.cs" />
+    <Compile Include="Entrees\BreadedChicken.cs" />
+    <Compile Include="Entrees\ChickenPaprikash.cs" />
+    <Compile Include="Entrees\HungarianRatatouille.cs" />
+    <Compile Include="Entrees\LayeredPotatoes.cs" />
+    <Compile Include="Entrees\PorkAndSauerkrautStew.cs" />
+    <Compile Include="Entrees\PorkStew.cs" />
+    <Compile Include="Entrees\RoastedChicken.cs" />
+    <Compile Include="Entrees\StuffedCabbage.cs" />
+    <Compile Include="Entrees\StuffedPeppers.cs" />
+    <Compile Include="Factorys\Dessert factorys\AppleStrudelFactory.cs" />
+    <Compile Include="Factorys\Dessert factorys\DobosTorteFactory.cs" />
+    <Compile Include="Factorys\Dessert factorys\GerbeaudSliceFactory.cs" />
+    <Compile Include="Factorys\Dessert factorys\GoldenDumplingsFactory.cs" />
+    <Compile Include="Factorys\Dessert factorys\HoneyCakeFactory.cs" />
     <Compile Include="Factorys\Entree factorys\BeefStewFactory.cs" />
     <Compile Include="Factorys\Entree factorys\BreadedChickenFactory.cs" />
     <Compile Include="Factorys\Entree factorys\ChickenPaprikashFactory.cs" />
@@ -66,6 +91,8 @@
     <Compile Include="Factorys\Entree factorys\RoastedChickenFactory.cs" />
     <Compile Include="Factorys\Entree factorys\StuffedCabbageFactory.cs" />
     <Compile Include="Factorys\Entree factorys\StuffedPeppersFactory.cs" />
+    <Compile Include="Interfaces\Desserts\IDessert.cs" />
+    <Compile Include="Interfaces\Desserts\IDessertFactory.cs" />
     <Compile Include="Interfaces\Entrees\IEntree.cs" />
     <Compile Include="Interfaces\Entrees\IEntreeFactory.cs" />
     <Compile Include="Log\ILog.cs" />
@@ -200,6 +227,17 @@
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
-  <ItemGroup />
+  <ItemGroup>
+    <BootstrapperPackage Include=".NETFramework,Version=v4.7.2">
+      <Visible>False</Visible>
+      <ProductName>Microsoft .NET Framework 4.7.2 %28x86 and x64%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

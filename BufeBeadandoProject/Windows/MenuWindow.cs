@@ -1,6 +1,8 @@
-﻿using BufeBeadandoProject.Factorys.Entree_factorys;
+﻿using BufeBeadandoProject.Factorys.Dessert_factorys;
+using BufeBeadandoProject.Factorys.Entree_factorys;
 using BufeBeadandoProject.Factorys.Soups;
 using BufeBeadandoProject.Interfaces;
+using BufeBeadandoProject.Interfaces.Desserts;
 using BufeBeadandoProject.Interfaces.Entrees;
 using BufeBeadandoProject.Soups;
 using System;
@@ -13,19 +15,24 @@ namespace BufeBeadandoProject
     {
         private ISoupFactory soupFactory;
         private IEntreeFactory entreeFactory;
+        private IDessertFactory dessertFactory;
         private List<ISoup> soups;
         private List<IEntree> entrees;
+        private List<IDessert> desserts;
 
         public List<ISoup> GetSoups() { return soups; }
         public List<IEntree> GetEntrees() { return entrees; }
+        public List<IDessert> GetDesserts() { return desserts; }
 
         public MenuWindow()
         {
             InitializeComponent();
             soups = new List<ISoup>();
             entrees = new List<IEntree>();
+            desserts = new List<IDessert>();
             InitializeSoups();
             InitializeEntrees();
+            InitializeDesserts();
         }
 
         public void InitializeSoups()
@@ -95,11 +102,30 @@ namespace BufeBeadandoProject
             entrees.Add(entreeFactory.CreateEntree());
         }
 
+        public void InitializeDesserts()
+        {
+            dessertFactory = new AppleStrudelFactory();
+            desserts.Add(dessertFactory.CreateDessert());
+
+            dessertFactory = new DobosTorteFactory();
+            desserts.Add(dessertFactory.CreateDessert());
+
+            dessertFactory = new GerbeaudSliceFactory();
+            desserts.Add(dessertFactory.CreateDessert());
+
+            dessertFactory = new GoldenDumplingsFactory();
+            desserts.Add(dessertFactory.CreateDessert());
+
+            dessertFactory = new HoneyCakeFactory();
+            desserts.Add(dessertFactory.CreateDessert());
+        }
+
         private void btn_soups_Click(object sender, EventArgs e)
         {
             UpdateSoupListSoup();
             btn_soups.Enabled = false;
             btn_Entrees.Enabled = true;
+            btn_desserts.Enabled = true;
         }
 
         private void btn_Entrees_Click(object sender, EventArgs e)
@@ -107,6 +133,15 @@ namespace BufeBeadandoProject
             UpdateSoupListEntree();
             btn_Entrees.Enabled = false;
             btn_soups.Enabled = true;
+            btn_desserts.Enabled = true;
+        }
+
+        private void btn_desserts_Click(object sender, EventArgs e)
+        {
+            UpdateSoupListDessert();
+            btn_Entrees.Enabled = true;
+            btn_soups.Enabled = true;
+            btn_desserts.Enabled = false;
         }
 
         private void UpdateSoupListSoup()
@@ -127,12 +162,29 @@ namespace BufeBeadandoProject
             }
         }
 
+        private void UpdateSoupListDessert()
+        {
+            listBox_result.Items.Clear();
+            foreach (IDessert dessert in desserts)
+            {
+                listBox_result.Items.Add(dessert.ToString());
+            }
+        }
+
         private void listBox_result_SelectedIndexChanged(object sender, EventArgs e)
         {
-            if (listBox_result.SelectedItem != null)
+            if (listBox_result.SelectedItem != null && !btn_soups.Enabled)
             {
                 lbl_inf_result.Text = "Neve: " + listBox_result.SelectedItem.ToString() + "\n";
                 lbl_inf_result.Text += "Ára: 1500 Ft";
+            } else if (listBox_result.SelectedItem != null && !btn_Entrees.Enabled)
+            {
+                lbl_inf_result.Text = "Neve: " + listBox_result.SelectedItem.ToString() + "\n";
+                lbl_inf_result.Text += "Ára: 1800 Ft";
+            } else if (listBox_result.SelectedItem != null && !btn_desserts.Enabled)
+            {
+                lbl_inf_result.Text = "Neve: " + listBox_result.SelectedItem.ToString() + "\n";
+                lbl_inf_result.Text += "Ára: 800 Ft";
             }
         }
 
