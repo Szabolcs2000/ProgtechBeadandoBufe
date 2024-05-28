@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(UserLoginWindow));
             this.LB_Cim = new System.Windows.Forms.Label();
             this.TB_UserName = new System.Windows.Forms.TextBox();
             this.TB_UserPW = new System.Windows.Forms.TextBox();
@@ -47,8 +48,8 @@
             // LB_Cim
             // 
             this.LB_Cim.AutoSize = true;
-            this.LB_Cim.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
-            this.LB_Cim.Location = new System.Drawing.Point(22, 28);
+            this.LB_Cim.BackColor = System.Drawing.Color.White;
+            this.LB_Cim.Location = new System.Drawing.Point(161, 28);
             this.LB_Cim.Name = "LB_Cim";
             this.LB_Cim.Size = new System.Drawing.Size(63, 13);
             this.LB_Cim.TabIndex = 0;
@@ -56,32 +57,34 @@
             // 
             // TB_UserName
             // 
-            this.TB_UserName.Location = new System.Drawing.Point(301, 147);
+            this.TB_UserName.Location = new System.Drawing.Point(352, 147);
             this.TB_UserName.Name = "TB_UserName";
             this.TB_UserName.Size = new System.Drawing.Size(100, 20);
             this.TB_UserName.TabIndex = 1;
             // 
             // TB_UserPW
             // 
-            this.TB_UserPW.Location = new System.Drawing.Point(301, 184);
+            this.TB_UserPW.Location = new System.Drawing.Point(352, 184);
             this.TB_UserPW.Name = "TB_UserPW";
             this.TB_UserPW.Size = new System.Drawing.Size(100, 20);
             this.TB_UserPW.TabIndex = 2;
             // 
             // BTN_UserLogin
             // 
-            this.BTN_UserLogin.Location = new System.Drawing.Point(301, 227);
+            this.BTN_UserLogin.BackColor = System.Drawing.Color.White;
+            this.BTN_UserLogin.Location = new System.Drawing.Point(352, 223);
             this.BTN_UserLogin.Name = "BTN_UserLogin";
             this.BTN_UserLogin.Size = new System.Drawing.Size(75, 23);
             this.BTN_UserLogin.TabIndex = 3;
             this.BTN_UserLogin.Text = "Belépés";
-            this.BTN_UserLogin.UseVisualStyleBackColor = true;
+            this.BTN_UserLogin.UseVisualStyleBackColor = false;
             this.BTN_UserLogin.Click += new System.EventHandler(this.BTN_UserLogin_Click);
             // 
             // LB_UserName
             // 
             this.LB_UserName.AutoSize = true;
-            this.LB_UserName.Location = new System.Drawing.Point(182, 147);
+            this.LB_UserName.BackColor = System.Drawing.Color.White;
+            this.LB_UserName.Location = new System.Drawing.Point(253, 153);
             this.LB_UserName.Name = "LB_UserName";
             this.LB_UserName.Size = new System.Drawing.Size(84, 13);
             this.LB_UserName.TabIndex = 4;
@@ -90,7 +93,8 @@
             // LB_UserPW
             // 
             this.LB_UserPW.AutoSize = true;
-            this.LB_UserPW.Location = new System.Drawing.Point(182, 191);
+            this.LB_UserPW.BackColor = System.Drawing.Color.White;
+            this.LB_UserPW.Location = new System.Drawing.Point(298, 191);
             this.LB_UserPW.Name = "LB_UserPW";
             this.LB_UserPW.Size = new System.Drawing.Size(39, 13);
             this.LB_UserPW.TabIndex = 5;
@@ -99,7 +103,8 @@
             // LB_Reg
             // 
             this.LB_Reg.AutoSize = true;
-            this.LB_Reg.Location = new System.Drawing.Point(40, 329);
+            this.LB_Reg.BackColor = System.Drawing.Color.White;
+            this.LB_Reg.Location = new System.Drawing.Point(170, 316);
             this.LB_Reg.Name = "LB_Reg";
             this.LB_Reg.Size = new System.Drawing.Size(206, 13);
             this.LB_Reg.TabIndex = 6;
@@ -107,18 +112,20 @@
             // 
             // BTN_Reg
             // 
-            this.BTN_Reg.Location = new System.Drawing.Point(43, 362);
+            this.BTN_Reg.BackColor = System.Drawing.Color.White;
+            this.BTN_Reg.Location = new System.Drawing.Point(301, 343);
             this.BTN_Reg.Name = "BTN_Reg";
             this.BTN_Reg.Size = new System.Drawing.Size(75, 23);
             this.BTN_Reg.TabIndex = 7;
             this.BTN_Reg.Text = "Regisztráció";
-            this.BTN_Reg.UseVisualStyleBackColor = true;
+            this.BTN_Reg.UseVisualStyleBackColor = false;
             this.BTN_Reg.Click += new System.EventHandler(this.BTN_Reg_Click);
             // 
             // LB_Admin
             // 
             this.LB_Admin.AutoSize = true;
-            this.LB_Admin.Location = new System.Drawing.Point(574, 328);
+            this.LB_Admin.BackColor = System.Drawing.Color.White;
+            this.LB_Admin.Location = new System.Drawing.Point(464, 316);
             this.LB_Admin.Name = "LB_Admin";
             this.LB_Admin.Size = new System.Drawing.Size(156, 13);
             this.LB_Admin.TabIndex = 8;
@@ -126,22 +133,24 @@
             // 
             // BTN_Admin
             // 
-            this.BTN_Admin.Location = new System.Drawing.Point(568, 361);
+            this.BTN_Admin.BackColor = System.Drawing.Color.White;
+            this.BTN_Admin.Location = new System.Drawing.Point(467, 343);
             this.BTN_Admin.Name = "BTN_Admin";
             this.BTN_Admin.Size = new System.Drawing.Size(138, 23);
             this.BTN_Admin.TabIndex = 9;
             this.BTN_Admin.Text = "Adminként belépés";
-            this.BTN_Admin.UseVisualStyleBackColor = true;
+            this.BTN_Admin.UseVisualStyleBackColor = false;
             this.BTN_Admin.Click += new System.EventHandler(this.BTN_Admin_Click);
             // 
             // BTN_UserExit
             // 
-            this.BTN_UserExit.Location = new System.Drawing.Point(654, 17);
+            this.BTN_UserExit.BackColor = System.Drawing.Color.White;
+            this.BTN_UserExit.Location = new System.Drawing.Point(684, 18);
             this.BTN_UserExit.Name = "BTN_UserExit";
             this.BTN_UserExit.Size = new System.Drawing.Size(104, 33);
             this.BTN_UserExit.TabIndex = 10;
             this.BTN_UserExit.Text = "Kilépés";
-            this.BTN_UserExit.UseVisualStyleBackColor = true;
+            this.BTN_UserExit.UseVisualStyleBackColor = false;
             this.BTN_UserExit.Click += new System.EventHandler(this.BTN_UserExit_Click);
             // 
             // LB_UserErrorMessage
@@ -155,28 +164,32 @@
             // 
             // BTN_UserShowAndHidePW
             // 
-            this.BTN_UserShowAndHidePW.Location = new System.Drawing.Point(417, 180);
+            this.BTN_UserShowAndHidePW.BackColor = System.Drawing.Color.White;
+            this.BTN_UserShowAndHidePW.Location = new System.Drawing.Point(467, 174);
             this.BTN_UserShowAndHidePW.Name = "BTN_UserShowAndHidePW";
             this.BTN_UserShowAndHidePW.Size = new System.Drawing.Size(85, 39);
             this.BTN_UserShowAndHidePW.TabIndex = 31;
             this.BTN_UserShowAndHidePW.Text = "Megjelenítés / elrejtés";
-            this.BTN_UserShowAndHidePW.UseVisualStyleBackColor = true;
+            this.BTN_UserShowAndHidePW.UseVisualStyleBackColor = false;
             this.BTN_UserShowAndHidePW.Click += new System.EventHandler(this.BTN_UserShowAndHidePW_Click);
             // 
             // button1
             // 
+            this.button1.BackColor = System.Drawing.Color.White;
             this.button1.Location = new System.Drawing.Point(654, 143);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(75, 23);
             this.button1.TabIndex = 32;
             this.button1.Text = "button1";
-            this.button1.UseVisualStyleBackColor = true;
+            this.button1.UseVisualStyleBackColor = false;
             this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
             // UserLoginWindow
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
+            this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(800, 450);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.BTN_UserShowAndHidePW);

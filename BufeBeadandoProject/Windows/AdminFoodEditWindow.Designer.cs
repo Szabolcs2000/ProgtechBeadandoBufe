@@ -28,23 +28,27 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(AdminFoodEditWindow));
             this.BTN_FoodEditExit = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // BTN_FoodEditExit
             // 
-            this.BTN_FoodEditExit.Location = new System.Drawing.Point(624, 51);
+            this.BTN_FoodEditExit.BackColor = System.Drawing.Color.White;
+            this.BTN_FoodEditExit.Location = new System.Drawing.Point(674, 38);
             this.BTN_FoodEditExit.Name = "BTN_FoodEditExit";
             this.BTN_FoodEditExit.Size = new System.Drawing.Size(104, 33);
             this.BTN_FoodEditExit.TabIndex = 19;
             this.BTN_FoodEditExit.Text = "Kilépés";
-            this.BTN_FoodEditExit.UseVisualStyleBackColor = true;
+            this.BTN_FoodEditExit.UseVisualStyleBackColor = false;
             this.BTN_FoodEditExit.Click += new System.EventHandler(this.BTN_FoodEditExit_Click);
             // 
             // AdminFoodEditWindow
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
+            this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(800, 450);
             this.Controls.Add(this.BTN_FoodEditExit);
             this.Name = "AdminFoodEditWindow";

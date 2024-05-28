@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(AdminLoginWindow));
             this.LB_AdminWindowTitle = new System.Windows.Forms.Label();
             this.BTN_User = new System.Windows.Forms.Button();
             this.LB_User = new System.Windows.Forms.Label();
@@ -44,7 +45,8 @@
             // LB_AdminWindowTitle
             // 
             this.LB_AdminWindowTitle.AutoSize = true;
-            this.LB_AdminWindowTitle.Location = new System.Drawing.Point(51, 44);
+            this.LB_AdminWindowTitle.BackColor = System.Drawing.Color.White;
+            this.LB_AdminWindowTitle.Location = new System.Drawing.Point(25, 34);
             this.LB_AdminWindowTitle.Name = "LB_AdminWindowTitle";
             this.LB_AdminWindowTitle.Size = new System.Drawing.Size(76, 13);
             this.LB_AdminWindowTitle.TabIndex = 0;
@@ -52,18 +54,20 @@
             // 
             // BTN_User
             // 
-            this.BTN_User.Location = new System.Drawing.Point(593, 351);
+            this.BTN_User.BackColor = System.Drawing.Color.White;
+            this.BTN_User.Location = new System.Drawing.Point(602, 399);
             this.BTN_User.Name = "BTN_User";
-            this.BTN_User.Size = new System.Drawing.Size(138, 23);
+            this.BTN_User.Size = new System.Drawing.Size(138, 25);
             this.BTN_User.TabIndex = 16;
             this.BTN_User.Text = "Felhasználóként belépés";
-            this.BTN_User.UseVisualStyleBackColor = true;
+            this.BTN_User.UseVisualStyleBackColor = false;
             this.BTN_User.Click += new System.EventHandler(this.BTN_User_Click);
             // 
             // LB_User
             // 
             this.LB_User.AutoSize = true;
-            this.LB_User.Location = new System.Drawing.Point(599, 318);
+            this.LB_User.BackColor = System.Drawing.Color.White;
+            this.LB_User.Location = new System.Drawing.Point(599, 372);
             this.LB_User.Name = "LB_User";
             this.LB_User.Size = new System.Drawing.Size(181, 13);
             this.LB_User.TabIndex = 15;
@@ -72,7 +76,8 @@
             // LB_AdminPW
             // 
             this.LB_AdminPW.AutoSize = true;
-            this.LB_AdminPW.Location = new System.Drawing.Point(207, 181);
+            this.LB_AdminPW.BackColor = System.Drawing.Color.White;
+            this.LB_AdminPW.Location = new System.Drawing.Point(224, 202);
             this.LB_AdminPW.Name = "LB_AdminPW";
             this.LB_AdminPW.Size = new System.Drawing.Size(39, 13);
             this.LB_AdminPW.TabIndex = 14;
@@ -81,7 +86,8 @@
             // LB_AdminName
             // 
             this.LB_AdminName.AutoSize = true;
-            this.LB_AdminName.Location = new System.Drawing.Point(207, 137);
+            this.LB_AdminName.BackColor = System.Drawing.Color.White;
+            this.LB_AdminName.Location = new System.Drawing.Point(211, 170);
             this.LB_AdminName.Name = "LB_AdminName";
             this.LB_AdminName.Size = new System.Drawing.Size(84, 13);
             this.LB_AdminName.TabIndex = 13;
@@ -89,36 +95,38 @@
             // 
             // BTN_AdminLogin
             // 
-            this.BTN_AdminLogin.Location = new System.Drawing.Point(326, 217);
+            this.BTN_AdminLogin.BackColor = System.Drawing.Color.White;
+            this.BTN_AdminLogin.Location = new System.Drawing.Point(326, 245);
             this.BTN_AdminLogin.Name = "BTN_AdminLogin";
-            this.BTN_AdminLogin.Size = new System.Drawing.Size(75, 23);
+            this.BTN_AdminLogin.Size = new System.Drawing.Size(81, 32);
             this.BTN_AdminLogin.TabIndex = 12;
             this.BTN_AdminLogin.Text = "Belépés";
-            this.BTN_AdminLogin.UseVisualStyleBackColor = true;
+            this.BTN_AdminLogin.UseVisualStyleBackColor = false;
             this.BTN_AdminLogin.Click += new System.EventHandler(this.BTN_AdminLogin_Click);
             // 
             // TB_AdminPW
             // 
-            this.TB_AdminPW.Location = new System.Drawing.Point(326, 174);
+            this.TB_AdminPW.Location = new System.Drawing.Point(326, 199);
             this.TB_AdminPW.Name = "TB_AdminPW";
             this.TB_AdminPW.Size = new System.Drawing.Size(100, 20);
             this.TB_AdminPW.TabIndex = 11;
             // 
             // TB_AdminName
             // 
-            this.TB_AdminName.Location = new System.Drawing.Point(326, 137);
+            this.TB_AdminName.Location = new System.Drawing.Point(326, 163);
             this.TB_AdminName.Name = "TB_AdminName";
             this.TB_AdminName.Size = new System.Drawing.Size(100, 20);
             this.TB_AdminName.TabIndex = 10;
             // 
             // BTN_AdminExit
             // 
-            this.BTN_AdminExit.Location = new System.Drawing.Point(641, 34);
+            this.BTN_AdminExit.BackColor = System.Drawing.Color.White;
+            this.BTN_AdminExit.Location = new System.Drawing.Point(676, 34);
             this.BTN_AdminExit.Name = "BTN_AdminExit";
             this.BTN_AdminExit.Size = new System.Drawing.Size(104, 33);
             this.BTN_AdminExit.TabIndex = 17;
             this.BTN_AdminExit.Text = "Kilépés";
-            this.BTN_AdminExit.UseVisualStyleBackColor = true;
+            this.BTN_AdminExit.UseVisualStyleBackColor = false;
             this.BTN_AdminExit.Click += new System.EventHandler(this.BTN_AdminExit_Click);
             // 
             // LB_ErrorMessage
@@ -131,18 +139,21 @@
             // 
             // BTN_AdminShowAndHidePW
             // 
-            this.BTN_AdminShowAndHidePW.Location = new System.Drawing.Point(432, 170);
+            this.BTN_AdminShowAndHidePW.BackColor = System.Drawing.Color.White;
+            this.BTN_AdminShowAndHidePW.Location = new System.Drawing.Point(432, 191);
             this.BTN_AdminShowAndHidePW.Name = "BTN_AdminShowAndHidePW";
             this.BTN_AdminShowAndHidePW.Size = new System.Drawing.Size(86, 35);
             this.BTN_AdminShowAndHidePW.TabIndex = 31;
             this.BTN_AdminShowAndHidePW.Text = "Megjelenítés / elrejtés";
-            this.BTN_AdminShowAndHidePW.UseVisualStyleBackColor = true;
+            this.BTN_AdminShowAndHidePW.UseVisualStyleBackColor = false;
             this.BTN_AdminShowAndHidePW.Click += new System.EventHandler(this.BTN_AdminShowAndHidePW_Click);
             // 
             // AdminLoginWindow
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
+            this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(800, 450);
             this.Controls.Add(this.BTN_AdminShowAndHidePW);
             this.Controls.Add(this.LB_ErrorMessage);

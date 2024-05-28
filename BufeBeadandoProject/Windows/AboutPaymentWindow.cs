@@ -33,6 +33,6 @@ namespace BufeBeadandoProject
         private void BTN_AboutPaymentExit_Click(object sender, EventArgs e)
         {
             Application.Exit();
-                    }
+        }
     }
 }

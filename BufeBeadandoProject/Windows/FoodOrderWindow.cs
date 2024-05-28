@@ -33,14 +33,13 @@ namespace BufeBeadandoProject
 
             for (int i = 0; i < indexes.Length; i++)
             {
-               
+
                 do
                 {
                     randomNumber = rnd.Next(0, menu.GetSoups().Count);
-                } while (indexes.Contains(randomNumber)); 
+                } while ((Array.IndexOf(indexes, randomNumber) != -1));
                 indexes[i] = randomNumber;
             }
-
 
             TB_MondaySoup.Text = menu.GetSoups()[indexes[0]].ToString();
             TB_TuesdaySoup.Text = menu.GetSoups()[indexes[1]].ToString();
@@ -81,29 +80,28 @@ namespace BufeBeadandoProject
         #region
         private int[] indexes = new int[5];
         private string[] flavorings = new string[4] { "Nem kérek", "Só (+50 Ft)", "Bors (+60 Ft)", "Mindkettő (+100 Ft)" };
-        private int menuCounter;
-        private int dessertCounter;
-        private int noFlavorCounter;
-        private int onlySaltCounter;
-        private int onlyPepperCounter;
-        private int bothFlavorCounter;
+        public int menuCounter;
+        public int dessertCounter;
+        public int onlySaltCounter;
+        public int onlyPepperCounter;
+        public int bothFlavorCounter;
+        public int priceSummary;
         private int randomNumber;
         #endregion
 
         private void EnableCBS()
-        {       
-                CB_Monday.Enabled = CHB_MondayMenu.Checked;
-                CB_Tuesday.Enabled = CHB_TuesdayMenu.Checked;
-                CB_Wednesday.Enabled = CHB_WednesdayMenu.Checked;
-                CB_Thursday.Enabled = CHB_ThursdayMenu.Checked;
-                CB_Friday.Enabled = CHB_FridayMenu.Checked;
+        {
+            CB_Monday.Enabled = CHB_MondayMenu.Checked;
+            CB_Tuesday.Enabled = CHB_TuesdayMenu.Checked;
+            CB_Wednesday.Enabled = CHB_WednesdayMenu.Checked;
+            CB_Thursday.Enabled = CHB_ThursdayMenu.Checked;
+            CB_Friday.Enabled = CHB_FridayMenu.Checked;
         }
 
-        private void CHBAndCBCounter(object sender, EventArgs e)
+        public void CHBAndCBCounter()
         {
             menuCounter = 0;
             dessertCounter = 0;
-            noFlavorCounter = 0;
             onlySaltCounter = 0;
             onlyPepperCounter = 0;
             bothFlavorCounter = 0;
@@ -118,16 +116,14 @@ namespace BufeBeadandoProject
 
             foreach (ComboBox comboBox in Controls.OfType<ComboBox>())
             {
-                if (comboBox.SelectedItem.ToString().Contains("Nem kérek"))
-                    noFlavorCounter++;
 
-                else if (comboBox.SelectedItem.ToString().Contains("Só (+50 Ft)"))
+                if (comboBox.SelectedItem.ToString().Contains("Só (+50 Ft)"))
                     onlySaltCounter++;
 
                 else if (comboBox.SelectedItem.ToString().Contains("Bors (+60 Ft)"))
                     onlyPepperCounter++;
 
-                else
+                else if (comboBox.SelectedItem.ToString().Contains("Mindkettő (+100 Ft)"))
                     bothFlavorCounter++;
             }
         }
@@ -161,14 +157,48 @@ namespace BufeBeadandoProject
 
         }
 
-        private void ActualPrice(object sender, EventArgs e)
+        public void ActualPrice(object sender, EventArgs e)
         {
-            CHBAndCBCounter(sender, e);
+            CHBAndCBCounter();
             EnableCBS();
-            int priceSummary = 0;
+            priceSummary = 0;
+
 
             if (menuCounter >= 1 || dessertCounter >= 1)
-            {             
+            {
+                IExtra menu = new SimpleMenu();
+                IExtra desszert = new DessertDecorator(menu);
+                IExtra salt = new SaltDecorator(menu);
+                IExtra pepper = new PepperDecorator(menu);
+
+                priceSummary = menu.Cost() * menuCounter + desszert.Cost() * dessertCounter +
+                                   salt.Cost() * onlySaltCounter + pepper.Cost() * onlyPepperCounter +
+                                   (salt.Cost() + pepper.Cost() - 10) * bothFlavorCounter;
+
+                TB_ActualPrice.Text = priceSummary.ToString();
+            }
+
+            else
+            {
+                TB_ActualPrice.Text = "0";
+            }
+
+        }
+
+        public void ActualPriceForUnitTest(int menuNum, int dessertNum, int saltNum, int pepperNum, int bothNum)
+        {
+
+            priceSummary = 0;
+
+            this.menuCounter = menuNum;
+            this.dessertCounter = dessertNum;
+            this.onlySaltCounter = saltNum;
+            this.onlyPepperCounter = pepperNum;
+            this.bothFlavorCounter = bothNum;
+
+
+            if (menuCounter >= 1 || dessertCounter >= 1)
+            {
                 IExtra menu = new SimpleMenu();
                 IExtra desszert = new DessertDecorator(menu);
                 IExtra salt = new SaltDecorator(menu);
@@ -195,12 +225,12 @@ namespace BufeBeadandoProject
             aboutPaymentWindow.Show();
             this.Hide();
             LogForPayment logForPayment = new LogForPayment();
-            logForPayment.Log("Információ","");
+            logForPayment.Log("Információ", "");
         }
 
         private void BTN_FoodOrdExit_Click(object sender, EventArgs e)
         {
             Application.Exit();
-        }                
+        }
     }
 }

@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(RegWindow));
             this.BTN_RegUser = new System.Windows.Forms.Button();
             this.LB_RegUser = new System.Windows.Forms.Label();
             this.LB_RegPW = new System.Windows.Forms.Label();
@@ -48,18 +49,19 @@
             // 
             // BTN_RegUser
             // 
-            this.BTN_RegUser.Location = new System.Drawing.Point(578, 367);
+            this.BTN_RegUser.BackColor = System.Drawing.Color.White;
+            this.BTN_RegUser.Location = new System.Drawing.Point(610, 295);
             this.BTN_RegUser.Name = "BTN_RegUser";
             this.BTN_RegUser.Size = new System.Drawing.Size(138, 23);
             this.BTN_RegUser.TabIndex = 24;
             this.BTN_RegUser.Text = "Felhasználóként belépés";
-            this.BTN_RegUser.UseVisualStyleBackColor = true;
+            this.BTN_RegUser.UseVisualStyleBackColor = false;
             this.BTN_RegUser.Click += new System.EventHandler(this.BTN_RegUser_Click);
             // 
             // LB_RegUser
             // 
             this.LB_RegUser.AutoSize = true;
-            this.LB_RegUser.Location = new System.Drawing.Point(584, 334);
+            this.LB_RegUser.Location = new System.Drawing.Point(607, 279);
             this.LB_RegUser.Name = "LB_RegUser";
             this.LB_RegUser.Size = new System.Drawing.Size(181, 13);
             this.LB_RegUser.TabIndex = 23;
@@ -85,12 +87,13 @@
             // 
             // BTN_RegCreate
             // 
+            this.BTN_RegCreate.BackColor = System.Drawing.Color.White;
             this.BTN_RegCreate.Location = new System.Drawing.Point(311, 324);
             this.BTN_RegCreate.Name = "BTN_RegCreate";
             this.BTN_RegCreate.Size = new System.Drawing.Size(75, 23);
             this.BTN_RegCreate.TabIndex = 20;
             this.BTN_RegCreate.Text = "Regisztráció";
-            this.BTN_RegCreate.UseVisualStyleBackColor = true;
+            this.BTN_RegCreate.UseVisualStyleBackColor = false;
             this.BTN_RegCreate.Click += new System.EventHandler(this.BTN_RegCreate_Click);
             // 
             // TB_RegPW
@@ -110,7 +113,7 @@
             // LB_RegWindowTitle
             // 
             this.LB_RegWindowTitle.AutoSize = true;
-            this.LB_RegWindowTitle.Location = new System.Drawing.Point(36, 60);
+            this.LB_RegWindowTitle.Location = new System.Drawing.Point(12, 137);
             this.LB_RegWindowTitle.Name = "LB_RegWindowTitle";
             this.LB_RegWindowTitle.Size = new System.Drawing.Size(65, 13);
             this.LB_RegWindowTitle.TabIndex = 17;
@@ -134,12 +137,13 @@
             // 
             // BTN_RegExit
             // 
-            this.BTN_RegExit.Location = new System.Drawing.Point(645, 40);
+            this.BTN_RegExit.BackColor = System.Drawing.Color.White;
+            this.BTN_RegExit.Location = new System.Drawing.Point(684, 12);
             this.BTN_RegExit.Name = "BTN_RegExit";
             this.BTN_RegExit.Size = new System.Drawing.Size(104, 33);
             this.BTN_RegExit.TabIndex = 27;
             this.BTN_RegExit.Text = "Kilépés";
-            this.BTN_RegExit.UseVisualStyleBackColor = true;
+            this.BTN_RegExit.UseVisualStyleBackColor = false;
             this.BTN_RegExit.Click += new System.EventHandler(this.BTN_RegExit_Click);
             // 
             // LB_RegPW2
@@ -160,22 +164,24 @@
             // 
             // BTN_RegShowAndHidePW
             // 
+            this.BTN_RegShowAndHidePW.BackColor = System.Drawing.Color.White;
             this.BTN_RegShowAndHidePW.Location = new System.Drawing.Point(467, 181);
             this.BTN_RegShowAndHidePW.Name = "BTN_RegShowAndHidePW";
             this.BTN_RegShowAndHidePW.Size = new System.Drawing.Size(85, 45);
             this.BTN_RegShowAndHidePW.TabIndex = 30;
             this.BTN_RegShowAndHidePW.Text = "Megjelenítés / elrejtés";
-            this.BTN_RegShowAndHidePW.UseVisualStyleBackColor = true;
+            this.BTN_RegShowAndHidePW.UseVisualStyleBackColor = false;
             this.BTN_RegShowAndHidePW.Click += new System.EventHandler(this.BTN_RegShowAndHidePW_Click);
             // 
             // BTN_RegShowAndHidePW2
             // 
+            this.BTN_RegShowAndHidePW2.BackColor = System.Drawing.Color.White;
             this.BTN_RegShowAndHidePW2.Location = new System.Drawing.Point(467, 232);
             this.BTN_RegShowAndHidePW2.Name = "BTN_RegShowAndHidePW2";
             this.BTN_RegShowAndHidePW2.Size = new System.Drawing.Size(85, 43);
             this.BTN_RegShowAndHidePW2.TabIndex = 31;
             this.BTN_RegShowAndHidePW2.Text = "Megjelenítés / elrejtés";
-            this.BTN_RegShowAndHidePW2.UseVisualStyleBackColor = true;
+            this.BTN_RegShowAndHidePW2.UseVisualStyleBackColor = false;
             this.BTN_RegShowAndHidePW2.Click += new System.EventHandler(this.BTN_RegShowAndHidePW2_Click);
             // 
             // LB_ErrorMessage
@@ -191,6 +197,8 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
+            this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(800, 450);
             this.Controls.Add(this.LB_ErrorMessage);
             this.Controls.Add(this.BTN_RegShowAndHidePW2);

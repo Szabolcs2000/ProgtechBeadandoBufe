@@ -1,4 +1,6 @@
-﻿namespace BufeBeadandoProject
+﻿using System.Windows.Forms;
+
+namespace BufeBeadandoProject
 {
     partial class AboutPaymentWindow
     {
@@ -28,6 +30,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(AboutPaymentWindow));
             this.BTN_AboutPaymentExit = new System.Windows.Forms.Button();
             this.TB_PaymentMessage = new System.Windows.Forms.TextBox();
             this.TB_PaymentMessage2 = new System.Windows.Forms.TextBox();
@@ -35,18 +38,20 @@
             // 
             // BTN_AboutPaymentExit
             // 
-            this.BTN_AboutPaymentExit.Location = new System.Drawing.Point(668, 31);
+            this.BTN_AboutPaymentExit.BackColor = System.Drawing.Color.White;
+            this.BTN_AboutPaymentExit.Location = new System.Drawing.Point(673, 405);
             this.BTN_AboutPaymentExit.Name = "BTN_AboutPaymentExit";
             this.BTN_AboutPaymentExit.Size = new System.Drawing.Size(104, 33);
             this.BTN_AboutPaymentExit.TabIndex = 19;
             this.BTN_AboutPaymentExit.Text = "Kilépés";
-            this.BTN_AboutPaymentExit.UseVisualStyleBackColor = true;
+            this.BTN_AboutPaymentExit.UseVisualStyleBackColor = false;
             this.BTN_AboutPaymentExit.Click += new System.EventHandler(this.BTN_AboutPaymentExit_Click);
             // 
             // TB_PaymentMessage
             // 
+            this.TB_PaymentMessage.BackColor = System.Drawing.Color.White;
             this.TB_PaymentMessage.Enabled = false;
-            this.TB_PaymentMessage.Location = new System.Drawing.Point(264, 172);
+            this.TB_PaymentMessage.Location = new System.Drawing.Point(264, 207);
             this.TB_PaymentMessage.Name = "TB_PaymentMessage";
             this.TB_PaymentMessage.ReadOnly = true;
             this.TB_PaymentMessage.Size = new System.Drawing.Size(229, 20);
@@ -56,8 +61,9 @@
             // 
             // TB_PaymentMessage2
             // 
+            this.TB_PaymentMessage2.BackColor = System.Drawing.Color.White;
             this.TB_PaymentMessage2.Enabled = false;
-            this.TB_PaymentMessage2.Location = new System.Drawing.Point(264, 198);
+            this.TB_PaymentMessage2.Location = new System.Drawing.Point(264, 233);
             this.TB_PaymentMessage2.Name = "TB_PaymentMessage2";
             this.TB_PaymentMessage2.ReadOnly = true;
             this.TB_PaymentMessage2.Size = new System.Drawing.Size(229, 20);
@@ -69,6 +75,8 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
+            this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(800, 450);
             this.Controls.Add(this.TB_PaymentMessage2);
             this.Controls.Add(this.TB_PaymentMessage);
