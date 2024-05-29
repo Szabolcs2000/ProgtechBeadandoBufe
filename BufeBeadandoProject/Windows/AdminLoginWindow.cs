@@ -49,7 +49,7 @@ namespace BufeBeadandoProject
         {
             if (TB_AdminName.Text == "Admin" && TB_AdminPW.Text == "1234")
             {
-                AdminFoodEditWindow adminFoodEditWindow = new AdminFoodEditWindow();
+                AdminWindow adminFoodEditWindow = new AdminWindow();
                 adminFoodEditWindow.FormClosed += (s, args) => this.Show();
                 adminFoodEditWindow.Show();
                 this.Hide();

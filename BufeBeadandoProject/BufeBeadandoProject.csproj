@@ -96,11 +96,12 @@
     <Compile Include="Interfaces\Entrees\IEntree.cs" />
     <Compile Include="Interfaces\Entrees\IEntreeFactory.cs" />
     <Compile Include="Log\ILog.cs" />
+    <Compile Include="Log\Login and other\LogForAdminDeleteUser.cs" />
     <Compile Include="Log\Update\LofForUpdateDessert.cs" />
     <Compile Include="Log\Login and other\LogForAdminLogin.cs" />
-    <Compile Include="Log\Delete\LogForDeleteDessert.cs" />
-    <Compile Include="Log\Delete\LogForDeleteMeal.cs" />
-    <Compile Include="Log\Delete\LogForDeleteSoup.cs" />
+    <Compile Include="Log\Delete foods\LogForDeleteDessert.cs" />
+    <Compile Include="Log\Delete foods\LogForDeleteMeal.cs" />
+    <Compile Include="Log\Delete foods\LogForDeleteSoup.cs" />
     <Compile Include="Log\Login and other\LogForExistingUser.cs" />
     <Compile Include="Log\Login and other\LogForLogin.cs" />
     <Compile Include="Log\New\LogForNewDessert.cs" />
@@ -116,11 +117,11 @@
     <Compile Include="Windows\AboutPaymentWindow.Designer.cs">
       <DependentUpon>AboutPaymentWindow.cs</DependentUpon>
     </Compile>
-    <Compile Include="Windows\AdminFoodEditWindow.cs">
+    <Compile Include="Windows\AdminWindow.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Windows\AdminFoodEditWindow.Designer.cs">
-      <DependentUpon>AdminFoodEditWindow.cs</DependentUpon>
+    <Compile Include="Windows\AdminWindow.Designer.cs">
+      <DependentUpon>AdminWindow.cs</DependentUpon>
     </Compile>
     <Compile Include="Windows\AdminLoginWindow.cs">
       <SubType>Form</SubType>
@@ -187,8 +188,8 @@
     <EmbeddedResource Include="Windows\AboutPaymentWindow.resx">
       <DependentUpon>AboutPaymentWindow.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Windows\AdminFoodEditWindow.resx">
-      <DependentUpon>AdminFoodEditWindow.cs</DependentUpon>
+    <EmbeddedResource Include="Windows\AdminWindow.resx">
+      <DependentUpon>AdminWindow.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Windows\AdminLoginWindow.resx">
       <DependentUpon>AdminLoginWindow.cs</DependentUpon>
