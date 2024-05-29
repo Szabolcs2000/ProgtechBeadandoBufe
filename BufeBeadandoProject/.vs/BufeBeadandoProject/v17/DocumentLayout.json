@@ -3,31 +3,35 @@
   "WorkspaceRootPath": "D:\\Suli\\Tant\u00E1rgyak\\4. f\u00E9l\u00E9v\\Programoz\u00E1si technol\u00F3gi\u00E1k gy\\Beadando 2.0\\ProgtechBeadandoBufe\\BufeBeadandoProject\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{98ADE710-9989-46F8-9116-BA9258A98AB3}|BufeBeadandoProject.csproj|d:\\suli\\tant\u00E1rgyak\\4. f\u00E9l\u00E9v\\programoz\u00E1si technol\u00F3gi\u00E1k gy\\beadando 2.0\\progtechbeadandobufe\\bufebeadandoproject\\windows\\foodorderwindow.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{98ADE710-9989-46F8-9116-BA9258A98AB3}|BufeBeadandoProject.csproj|solutionrelative:windows\\foodorderwindow.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{4335FE56-70C2-4840-8AE6-1540E0BABADE}|..\\UnitTests\\UnitTests.csproj|d:\\suli\\tant\u00E1rgyak\\4. f\u00E9l\u00E9v\\programoz\u00E1si technol\u00F3gi\u00E1k gy\\beadando 2.0\\progtechbeadandobufe\\unittests\\unittest1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{98ADE710-9989-46F8-9116-BA9258A98AB3}|BufeBeadandoProject.csproj|D:\\Suli\\Tant\u00E1rgyak\\4. f\u00E9l\u00E9v\\Programoz\u00E1si technol\u00F3gi\u00E1k gy\\Beadando 2.0\\ProgtechBeadandoBufe\\BufeBeadandoProject\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{98ADE710-9989-46F8-9116-BA9258A98AB3}|BufeBeadandoProject.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{98ADE710-9989-46F8-9116-BA9258A98AB3}|BufeBeadandoProject.csproj|D:\\Suli\\Tant\u00E1rgyak\\4. f\u00E9l\u00E9v\\Programoz\u00E1si technol\u00F3gi\u00E1k gy\\Beadando 2.0\\ProgtechBeadandoBufe\\BufeBeadandoProject\\windows\\foodorderwindow.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{98ADE710-9989-46F8-9116-BA9258A98AB3}|BufeBeadandoProject.csproj|solutionrelative:windows\\foodorderwindow.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{98ADE710-9989-46F8-9116-BA9258A98AB3}|BufeBeadandoProject.csproj|D:\\Suli\\Tant\u00E1rgyak\\4. f\u00E9l\u00E9v\\Programoz\u00E1si technol\u00F3gi\u00E1k gy\\Beadando 2.0\\ProgtechBeadandoBufe\\BufeBeadandoProject\\windows\\adminloginwindow.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{98ADE710-9989-46F8-9116-BA9258A98AB3}|BufeBeadandoProject.csproj|solutionrelative:windows\\adminloginwindow.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{4335FE56-70C2-4840-8AE6-1540E0BABADE}|..\\UnitTests\\UnitTests.csproj|d:\\suli\\tant\u00E1rgyak\\4. f\u00E9l\u00E9v\\programoz\u00E1si technol\u00F3gi\u00E1k gy\\beadando 2.0\\progtechbeadandobufe\\unittests\\unittest1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{98ADE710-9989-46F8-9116-BA9258A98AB3}|BufeBeadandoProject.csproj|D:\\Suli\\Tant\u00E1rgyak\\4. f\u00E9l\u00E9v\\Programoz\u00E1si technol\u00F3gi\u00E1k gy\\Beadando 2.0\\ProgtechBeadandoBufe\\BufeBeadandoProject\\windows\\menuwindow.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{98ADE710-9989-46F8-9116-BA9258A98AB3}|BufeBeadandoProject.csproj|solutionrelative:windows\\menuwindow.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{98ADE710-9989-46F8-9116-BA9258A98AB3}|BufeBeadandoProject.csproj|D:\\Suli\\Tant\u00E1rgyak\\4. f\u00E9l\u00E9v\\Programoz\u00E1si technol\u00F3gi\u00E1k gy\\Beadando 2.0\\ProgtechBeadandoBufe\\BufeBeadandoProject\\windows\\menuwindow.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{98ADE710-9989-46F8-9116-BA9258A98AB3}|BufeBeadandoProject.csproj|solutionrelative:windows\\menuwindow.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{98ADE710-9989-46F8-9116-BA9258A98AB3}|BufeBeadandoProject.csproj|D:\\Suli\\Tant\u00E1rgyak\\4. f\u00E9l\u00E9v\\Programoz\u00E1si technol\u00F3gi\u00E1k gy\\Beadando 2.0\\ProgtechBeadandoBufe\\BufeBeadandoProject\\windows\\menuwindow.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{98ADE710-9989-46F8-9116-BA9258A98AB3}|BufeBeadandoProject.csproj|solutionrelative:windows\\menuwindow.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{98ADE710-9989-46F8-9116-BA9258A98AB3}|BufeBeadandoProject.csproj|D:\\Suli\\Tant\u00E1rgyak\\4. f\u00E9l\u00E9v\\Programoz\u00E1si technol\u00F3gi\u00E1k gy\\Beadando 2.0\\ProgtechBeadandoBufe\\BufeBeadandoProject\\windows\\foodorderwindow.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{98ADE710-9989-46F8-9116-BA9258A98AB3}|BufeBeadandoProject.csproj|solutionrelative:windows\\foodorderwindow.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{98ADE710-9989-46F8-9116-BA9258A98AB3}|BufeBeadandoProject.csproj|D:\\Suli\\Tant\u00E1rgyak\\4. f\u00E9l\u00E9v\\Programoz\u00E1si technol\u00F3gi\u00E1k gy\\Beadando 2.0\\ProgtechBeadandoBufe\\BufeBeadandoProject\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{98ADE710-9989-46F8-9116-BA9258A98AB3}|BufeBeadandoProject.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{98ADE710-9989-46F8-9116-BA9258A98AB3}|BufeBeadandoProject.csproj|D:\\Suli\\Tant\u00E1rgyak\\4. f\u00E9l\u00E9v\\Programoz\u00E1si technol\u00F3gi\u00E1k gy\\Beadando 2.0\\ProgtechBeadandoBufe\\BufeBeadandoProject\\factorys\\dessert factorys\\honeycakefactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{98ADE710-9989-46F8-9116-BA9258A98AB3}|BufeBeadandoProject.csproj|solutionrelative:factorys\\dessert factorys\\honeycakefactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{98ADE710-9989-46F8-9116-BA9258A98AB3}|BufeBeadandoProject.csproj|D:\\Suli\\Tant\u00E1rgyak\\4. f\u00E9l\u00E9v\\Programoz\u00E1si technol\u00F3gi\u00E1k gy\\Beadando 2.0\\ProgtechBeadandoBufe\\BufeBeadandoProject\\factorys\\entree factorys\\beefstewfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -36,10 +40,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{98ADE710-9989-46F8-9116-BA9258A98AB3}|BufeBeadandoProject.csproj|D:\\Suli\\Tant\u00E1rgyak\\4. f\u00E9l\u00E9v\\Programoz\u00E1si technol\u00F3gi\u00E1k gy\\Beadando 2.0\\ProgtechBeadandoBufe\\BufeBeadandoProject\\factorys\\dessert factorys\\goldendumplingsfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{98ADE710-9989-46F8-9116-BA9258A98AB3}|BufeBeadandoProject.csproj|solutionrelative:factorys\\dessert factorys\\goldendumplingsfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{98ADE710-9989-46F8-9116-BA9258A98AB3}|BufeBeadandoProject.csproj|D:\\Suli\\Tant\u00E1rgyak\\4. f\u00E9l\u00E9v\\Programoz\u00E1si technol\u00F3gi\u00E1k gy\\Beadando 2.0\\ProgtechBeadandoBufe\\BufeBeadandoProject\\factorys\\dessert factorys\\honeycakefactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{98ADE710-9989-46F8-9116-BA9258A98AB3}|BufeBeadandoProject.csproj|solutionrelative:factorys\\dessert factorys\\honeycakefactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{98ADE710-9989-46F8-9116-BA9258A98AB3}|BufeBeadandoProject.csproj|D:\\Suli\\Tant\u00E1rgyak\\4. f\u00E9l\u00E9v\\Programoz\u00E1si technol\u00F3gi\u00E1k gy\\Beadando 2.0\\ProgtechBeadandoBufe\\BufeBeadandoProject\\desserts\\goldendumplings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -89,34 +89,32 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 3,
               "Title": "MenuWindow.cs",
               "DocumentMoniker": "D:\\Suli\\Tant\u00E1rgyak\\4. f\u00E9l\u00E9v\\Programoz\u00E1si technol\u00F3gi\u00E1k gy\\Beadando 2.0\\ProgtechBeadandoBufe\\BufeBeadandoProject\\Windows\\MenuWindow.cs",
               "RelativeDocumentMoniker": "Windows\\MenuWindow.cs",
               "ToolTip": "D:\\Suli\\Tant\u00E1rgyak\\4. f\u00E9l\u00E9v\\Programoz\u00E1si technol\u00F3gi\u00E1k gy\\Beadando 2.0\\ProgtechBeadandoBufe\\BufeBeadandoProject\\Windows\\MenuWindow.cs",
               "RelativeToolTip": "Windows\\MenuWindow.cs",
-              "ViewState": "AQIAAFcAAAAAAAAAAAAiwLYAAAAwAAAA",
+              "ViewState": "AQIAAF0AAAAAAAAAAAAiwLYAAAAwAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-05-28T16:49:30.027Z",
-              "IsPinned": true,
-              "EditorCaption": ""
+              "IsPinned": true
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "FoodOrderWindow.cs",
               "DocumentMoniker": "D:\\Suli\\Tant\u00E1rgyak\\4. f\u00E9l\u00E9v\\Programoz\u00E1si technol\u00F3gi\u00E1k gy\\Beadando 2.0\\ProgtechBeadandoBufe\\BufeBeadandoProject\\Windows\\FoodOrderWindow.cs",
               "RelativeDocumentMoniker": "Windows\\FoodOrderWindow.cs",
               "ToolTip": "D:\\Suli\\Tant\u00E1rgyak\\4. f\u00E9l\u00E9v\\Programoz\u00E1si technol\u00F3gi\u00E1k gy\\Beadando 2.0\\ProgtechBeadandoBufe\\BufeBeadandoProject\\Windows\\FoodOrderWindow.cs",
               "RelativeToolTip": "Windows\\FoodOrderWindow.cs",
-              "ViewState": "AQIAAC0AAAAAAAAAAAAAAEsAAAAmAAAA",
+              "ViewState": "AQIAAPIAAAAAAAAAAAAYwAgBAAAYAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-29T08:26:49.122Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-05-29T08:26:49.122Z"
             },
             {
               "$type": "Document",
@@ -127,18 +125,17 @@
               "ToolTip": "D:\\Suli\\Tant\u00E1rgyak\\4. f\u00E9l\u00E9v\\Programoz\u00E1si technol\u00F3gi\u00E1k gy\\Beadando 2.0\\ProgtechBeadandoBufe\\BufeBeadandoProject\\Windows\\AdminLoginWindow.cs [Design]",
               "RelativeToolTip": "Windows\\AdminLoginWindow.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-29T10:23:39.928Z",
-              "EditorCaption": " [Design]"
+              "WhenOpened": "2024-05-29T10:23:39.928Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 0,
               "Title": "UnitTest1.cs",
               "DocumentMoniker": "D:\\Suli\\Tant\u00E1rgyak\\4. f\u00E9l\u00E9v\\Programoz\u00E1si technol\u00F3gi\u00E1k gy\\Beadando 2.0\\ProgtechBeadandoBufe\\UnitTests\\UnitTest1.cs",
               "RelativeDocumentMoniker": "..\\UnitTests\\UnitTest1.cs",
               "ToolTip": "D:\\Suli\\Tant\u00E1rgyak\\4. f\u00E9l\u00E9v\\Programoz\u00E1si technol\u00F3gi\u00E1k gy\\Beadando 2.0\\ProgtechBeadandoBufe\\UnitTests\\UnitTest1.cs",
               "RelativeToolTip": "..\\UnitTests\\UnitTest1.cs",
-              "ViewState": "AQIAAA8AAAAAAAAAAAAAAAAAAAAAAAAA",
+              "ViewState": "AQIAADMAAAAAAAAAAAAAABIAAAAxAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-05-29T10:12:21.828Z",
               "EditorCaption": ""
@@ -152,25 +149,23 @@
               "ToolTip": "D:\\Suli\\Tant\u00E1rgyak\\4. f\u00E9l\u00E9v\\Programoz\u00E1si technol\u00F3gi\u00E1k gy\\Beadando 2.0\\ProgtechBeadandoBufe\\BufeBeadandoProject\\Windows\\MenuWindow.cs [Design]",
               "RelativeToolTip": "Windows\\MenuWindow.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-29T08:24:55.442Z",
-              "EditorCaption": " [Design]"
+              "WhenOpened": "2024-05-29T08:24:55.442Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 6,
               "Title": "Program.cs",
               "DocumentMoniker": "D:\\Suli\\Tant\u00E1rgyak\\4. f\u00E9l\u00E9v\\Programoz\u00E1si technol\u00F3gi\u00E1k gy\\Beadando 2.0\\ProgtechBeadandoBufe\\BufeBeadandoProject\\Program.cs",
               "RelativeDocumentMoniker": "Program.cs",
               "ToolTip": "D:\\Suli\\Tant\u00E1rgyak\\4. f\u00E9l\u00E9v\\Programoz\u00E1si technol\u00F3gi\u00E1k gy\\Beadando 2.0\\ProgtechBeadandoBufe\\BufeBeadandoProject\\Program.cs",
               "RelativeToolTip": "Program.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAAvAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAZAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-29T08:54:55.208Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-05-29T08:54:55.208Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 5,
               "Title": "FoodOrderWindow.cs [Design]",
               "DocumentMoniker": "D:\\Suli\\Tant\u00E1rgyak\\4. f\u00E9l\u00E9v\\Programoz\u00E1si technol\u00F3gi\u00E1k gy\\Beadando 2.0\\ProgtechBeadandoBufe\\BufeBeadandoProject\\Windows\\FoodOrderWindow.cs",
               "RelativeDocumentMoniker": "Windows\\FoodOrderWindow.cs",
@@ -181,7 +176,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 8,
               "Title": "BeefStewFactory.cs",
               "DocumentMoniker": "D:\\Suli\\Tant\u00E1rgyak\\4. f\u00E9l\u00E9v\\Programoz\u00E1si technol\u00F3gi\u00E1k gy\\Beadando 2.0\\ProgtechBeadandoBufe\\BufeBeadandoProject\\Factorys\\Entree factorys\\BeefStewFactory.cs",
               "RelativeDocumentMoniker": "Factorys\\Entree factorys\\BeefStewFactory.cs",
@@ -193,7 +188,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 9,
               "Title": "GoldenDumplingsFactory.cs",
               "DocumentMoniker": "D:\\Suli\\Tant\u00E1rgyak\\4. f\u00E9l\u00E9v\\Programoz\u00E1si technol\u00F3gi\u00E1k gy\\Beadando 2.0\\ProgtechBeadandoBufe\\BufeBeadandoProject\\Factorys\\Dessert factorys\\GoldenDumplingsFactory.cs",
               "RelativeDocumentMoniker": "Factorys\\Dessert factorys\\GoldenDumplingsFactory.cs",
@@ -241,7 +236,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 7,
               "Title": "HoneyCakeFactory.cs",
               "DocumentMoniker": "D:\\Suli\\Tant\u00E1rgyak\\4. f\u00E9l\u00E9v\\Programoz\u00E1si technol\u00F3gi\u00E1k gy\\Beadando 2.0\\ProgtechBeadandoBufe\\BufeBeadandoProject\\Factorys\\Dessert factorys\\HoneyCakeFactory.cs",
               "RelativeDocumentMoniker": "Factorys\\Dessert factorys\\HoneyCakeFactory.cs",
