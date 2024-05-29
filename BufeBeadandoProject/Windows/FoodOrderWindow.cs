@@ -69,7 +69,7 @@ namespace BufeBeadandoProject
                     indexesForDesserts[dessertIndex] = randomNumberForDessert;
                     dessertIndex++;
                 }
-            } while (dessertIndex < 5);
+            } while (dessertIndex < 4);
 
             TB_MondayDessert.Text = newMenu.GetDesserts()[indexesForDesserts[0]].ToString();
             TB_TuesdayDessert.Text = newMenu.GetDesserts()[indexesForDesserts[1]].ToString();
