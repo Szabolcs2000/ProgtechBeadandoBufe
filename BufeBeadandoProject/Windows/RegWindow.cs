@@ -107,7 +107,7 @@ namespace BufeBeadandoProject
             }
         }
 
-        private bool ValidateUsername(string UserName)
+        public bool ValidateUsername(string UserName)
         {
             Reader("./Users.csv");
             foreach (User user in UserDatas)
@@ -130,7 +130,7 @@ namespace BufeBeadandoProject
             return true;
         }
 
-        private bool ValidatePassword(string Password1, string Password2)
+        public bool ValidatePassword(string Password1, string Password2)
         {
             if (Password1.Length < 5 || Password2.Length < 5)
             {
@@ -148,7 +148,7 @@ namespace BufeBeadandoProject
             return true;
         }
 
-        private bool ValidateEmail(string Email)
+        public bool ValidateEmail(string Email)
         {
             if (Email.Length < 5)
             {
@@ -165,6 +165,11 @@ namespace BufeBeadandoProject
             }
 
             return true;
+        }
+
+        public Label ErrorMessageLabel
+        {
+            get { return LB_ErrorMessage; }
         }
 
     }

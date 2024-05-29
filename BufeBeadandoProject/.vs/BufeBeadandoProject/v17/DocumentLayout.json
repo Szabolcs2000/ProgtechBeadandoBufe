@@ -3,8 +3,27 @@
   "WorkspaceRootPath": "D:\\- Egyetem\\Progtech\\ProgtechBeadandoBufe\\BufeBeadandoProject\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{4335FE56-70C2-4840-8AE6-1540E0BABADE}|..\\UnitTests\\UnitTests.csproj|d:\\- egyetem\\progtech\\progtechbeadandobufe\\unittests\\unittest1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{98ADE710-9989-46F8-9116-BA9258A98AB3}|BufeBeadandoProject.csproj|d:\\- egyetem\\progtech\\progtechbeadandobufe\\bufebeadandoproject\\windows\\regwindow.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{98ADE710-9989-46F8-9116-BA9258A98AB3}|BufeBeadandoProject.csproj|solutionrelative:windows\\regwindow.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{98ADE710-9989-46F8-9116-BA9258A98AB3}|BufeBeadandoProject.csproj|d:\\- egyetem\\progtech\\progtechbeadandobufe\\bufebeadandoproject\\windows\\regwindow.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{98ADE710-9989-46F8-9116-BA9258A98AB3}|BufeBeadandoProject.csproj|solutionrelative:windows\\regwindow.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{98ADE710-9989-46F8-9116-BA9258A98AB3}|BufeBeadandoProject.csproj|d:\\- egyetem\\progtech\\progtechbeadandobufe\\bufebeadandoproject\\windows\\adminwindow.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{98ADE710-9989-46F8-9116-BA9258A98AB3}|BufeBeadandoProject.csproj|solutionrelative:windows\\adminwindow.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{98ADE710-9989-46F8-9116-BA9258A98AB3}|BufeBeadandoProject.csproj|d:\\- egyetem\\progtech\\progtechbeadandobufe\\bufebeadandoproject\\log\\login and other\\logforadmindeleteuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{98ADE710-9989-46F8-9116-BA9258A98AB3}|BufeBeadandoProject.csproj|solutionrelative:log\\login and other\\logforadmindeleteuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{98ADE710-9989-46F8-9116-BA9258A98AB3}|BufeBeadandoProject.csproj|d:\\- egyetem\\progtech\\progtechbeadandobufe\\bufebeadandoproject\\log\\login and other\\logforadminlogin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{98ADE710-9989-46F8-9116-BA9258A98AB3}|BufeBeadandoProject.csproj|solutionrelative:log\\login and other\\logforadminlogin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{98ADE710-9989-46F8-9116-BA9258A98AB3}|BufeBeadandoProject.csproj|d:\\- egyetem\\progtech\\progtechbeadandobufe\\bufebeadandoproject\\windows\\adminwindow.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
@@ -15,20 +34,8 @@
       "RelativeMoniker": "D:0:0:{98ADE710-9989-46F8-9116-BA9258A98AB3}|BufeBeadandoProject.csproj|solutionrelative:windows\\adminloginwindow.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{98ADE710-9989-46F8-9116-BA9258A98AB3}|BufeBeadandoProject.csproj|d:\\- egyetem\\progtech\\progtechbeadandobufe\\bufebeadandoproject\\log\\login and other\\logforadmindeleteuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{98ADE710-9989-46F8-9116-BA9258A98AB3}|BufeBeadandoProject.csproj|solutionrelative:log\\login and other\\logforadmindeleteuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{98ADE710-9989-46F8-9116-BA9258A98AB3}|BufeBeadandoProject.csproj|d:\\- egyetem\\progtech\\progtechbeadandobufe\\bufebeadandoproject\\windows\\regwindow.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{98ADE710-9989-46F8-9116-BA9258A98AB3}|BufeBeadandoProject.csproj|solutionrelative:windows\\regwindow.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{98ADE710-9989-46F8-9116-BA9258A98AB3}|BufeBeadandoProject.csproj|d:\\- egyetem\\progtech\\progtechbeadandobufe\\bufebeadandoproject\\windows\\adminloginwindow.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{98ADE710-9989-46F8-9116-BA9258A98AB3}|BufeBeadandoProject.csproj|solutionrelative:windows\\adminloginwindow.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{98ADE710-9989-46F8-9116-BA9258A98AB3}|BufeBeadandoProject.csproj|d:\\- egyetem\\progtech\\progtechbeadandobufe\\bufebeadandoproject\\log\\login and other\\logforadminlogin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{98ADE710-9989-46F8-9116-BA9258A98AB3}|BufeBeadandoProject.csproj|solutionrelative:log\\login and other\\logforadminlogin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{98ADE710-9989-46F8-9116-BA9258A98AB3}|BufeBeadandoProject.csproj|d:\\- egyetem\\progtech\\progtechbeadandobufe\\bufebeadandoproject\\log\\login and other\\logforlogin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -81,10 +88,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{98ADE710-9989-46F8-9116-BA9258A98AB3}|BufeBeadandoProject.csproj|d:\\- egyetem\\progtech\\progtechbeadandobufe\\bufebeadandoproject\\windows\\userloginwindow.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{98ADE710-9989-46F8-9116-BA9258A98AB3}|BufeBeadandoProject.csproj|solutionrelative:windows\\userloginwindow.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{98ADE710-9989-46F8-9116-BA9258A98AB3}|BufeBeadandoProject.csproj|d:\\- egyetem\\progtech\\progtechbeadandobufe\\bufebeadandoproject\\windows\\regwindow.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{98ADE710-9989-46F8-9116-BA9258A98AB3}|BufeBeadandoProject.csproj|solutionrelative:windows\\regwindow.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -94,7 +97,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 18,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Bookmark",
@@ -106,7 +109,33 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 0,
+              "Title": "UnitTest1.cs",
+              "DocumentMoniker": "D:\\- Egyetem\\Progtech\\ProgtechBeadandoBufe\\UnitTests\\UnitTest1.cs",
+              "RelativeDocumentMoniker": "..\\UnitTests\\UnitTest1.cs",
+              "ToolTip": "D:\\- Egyetem\\Progtech\\ProgtechBeadandoBufe\\UnitTests\\UnitTest1.cs",
+              "RelativeToolTip": "..\\UnitTests\\UnitTest1.cs",
+              "ViewState": "AQIAAGMAAAAAAAAAAAAUwG8AAAA4AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-29T16:45:01.978Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "RegWindow.cs",
+              "DocumentMoniker": "D:\\- Egyetem\\Progtech\\ProgtechBeadandoBufe\\BufeBeadandoProject\\Windows\\RegWindow.cs",
+              "RelativeDocumentMoniker": "Windows\\RegWindow.cs",
+              "ToolTip": "D:\\- Egyetem\\Progtech\\ProgtechBeadandoBufe\\BufeBeadandoProject\\Windows\\RegWindow.cs",
+              "RelativeToolTip": "Windows\\RegWindow.cs",
+              "ViewState": "AQIAAJMAAAAAAAAAAAAQwKwAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-29T15:20:42.619Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
               "Title": "RegWindow.cs [Design]",
               "DocumentMoniker": "D:\\- Egyetem\\Progtech\\ProgtechBeadandoBufe\\BufeBeadandoProject\\Windows\\RegWindow.cs",
               "RelativeDocumentMoniker": "Windows\\RegWindow.cs",
@@ -118,7 +147,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 9,
               "Title": "LogForLogin.cs",
               "DocumentMoniker": "D:\\- Egyetem\\Progtech\\ProgtechBeadandoBufe\\BufeBeadandoProject\\Log\\Login and other\\LogForLogin.cs",
               "RelativeDocumentMoniker": "Log\\Login and other\\LogForLogin.cs",
@@ -131,7 +160,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 8,
               "Title": "AdminLoginWindow.cs",
               "DocumentMoniker": "D:\\- Egyetem\\Progtech\\ProgtechBeadandoBufe\\BufeBeadandoProject\\Windows\\AdminLoginWindow.cs",
               "RelativeDocumentMoniker": "Windows\\AdminLoginWindow.cs",
@@ -144,7 +173,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 12,
               "Title": "Program.cs",
               "DocumentMoniker": "D:\\- Egyetem\\Progtech\\ProgtechBeadandoBufe\\BufeBeadandoProject\\Program.cs",
               "RelativeDocumentMoniker": "Program.cs",
@@ -157,7 +186,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 13,
               "Title": "LogForUpdateSoup.cs",
               "DocumentMoniker": "D:\\- Egyetem\\Progtech\\ProgtechBeadandoBufe\\BufeBeadandoProject\\Log\\Update\\LogForUpdateSoup.cs",
               "RelativeDocumentMoniker": "Log\\Update\\LogForUpdateSoup.cs",
@@ -170,7 +199,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 11,
               "Title": "LogForUpdateMeal.cs",
               "DocumentMoniker": "D:\\- Egyetem\\Progtech\\ProgtechBeadandoBufe\\BufeBeadandoProject\\Log\\Update\\LogForUpdateMeal.cs",
               "RelativeDocumentMoniker": "Log\\Update\\LogForUpdateMeal.cs",
@@ -183,7 +212,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 10,
               "Title": "LofForUpdateDessert.cs",
               "DocumentMoniker": "D:\\- Egyetem\\Progtech\\ProgtechBeadandoBufe\\BufeBeadandoProject\\Log\\Update\\LofForUpdateDessert.cs",
               "RelativeDocumentMoniker": "Log\\Update\\LofForUpdateDessert.cs",
@@ -196,7 +225,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 15,
               "Title": "AboutPaymentWindow.cs",
               "DocumentMoniker": "D:\\- Egyetem\\Progtech\\ProgtechBeadandoBufe\\BufeBeadandoProject\\Windows\\AboutPaymentWindow.cs",
               "RelativeDocumentMoniker": "Windows\\AboutPaymentWindow.cs",
@@ -209,7 +238,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 16,
               "Title": "FoodOrderWindow.cs",
               "DocumentMoniker": "D:\\- Egyetem\\Progtech\\ProgtechBeadandoBufe\\BufeBeadandoProject\\Windows\\FoodOrderWindow.cs",
               "RelativeDocumentMoniker": "Windows\\FoodOrderWindow.cs",
@@ -222,7 +251,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 17,
               "Title": "FoodOrderWindow.cs [Design]",
               "DocumentMoniker": "D:\\- Egyetem\\Progtech\\ProgtechBeadandoBufe\\BufeBeadandoProject\\Windows\\FoodOrderWindow.cs",
               "RelativeDocumentMoniker": "Windows\\FoodOrderWindow.cs",
@@ -234,7 +263,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 18,
               "Title": "User.cs",
               "DocumentMoniker": "D:\\- Egyetem\\Progtech\\ProgtechBeadandoBufe\\BufeBeadandoProject\\Other classes\\User.cs",
               "RelativeDocumentMoniker": "Other classes\\User.cs",
@@ -247,7 +276,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 19,
               "Title": "ICHBAndCBEvenetSubsricbe.cs",
               "DocumentMoniker": "D:\\- Egyetem\\Progtech\\ProgtechBeadandoBufe\\BufeBeadandoProject\\Other classes\\ICHBAndCBEvenetSubsricbe.cs",
               "RelativeDocumentMoniker": "Other classes\\ICHBAndCBEvenetSubsricbe.cs",
@@ -260,7 +289,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
+              "DocumentIndex": 20,
               "Title": "ILog.cs",
               "DocumentMoniker": "D:\\- Egyetem\\Progtech\\ProgtechBeadandoBufe\\BufeBeadandoProject\\Log\\ILog.cs",
               "RelativeDocumentMoniker": "Log\\ILog.cs",
@@ -273,7 +302,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 19,
+              "DocumentIndex": 21,
               "Title": "UserLoginWindow.cs [Design]",
               "DocumentMoniker": "D:\\- Egyetem\\Progtech\\ProgtechBeadandoBufe\\BufeBeadandoProject\\Windows\\UserLoginWindow.cs",
               "RelativeDocumentMoniker": "Windows\\UserLoginWindow.cs",
@@ -285,7 +314,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 5,
               "Title": "LogForAdminLogin.cs",
               "DocumentMoniker": "D:\\- Egyetem\\Progtech\\ProgtechBeadandoBufe\\BufeBeadandoProject\\Log\\Login and other\\LogForAdminLogin.cs",
               "RelativeDocumentMoniker": "Log\\Login and other\\LogForAdminLogin.cs",
@@ -298,33 +327,33 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "LogForAdminDeleteUser.cs",
               "DocumentMoniker": "D:\\- Egyetem\\Progtech\\ProgtechBeadandoBufe\\BufeBeadandoProject\\Log\\Login and other\\LogForAdminDeleteUser.cs",
               "RelativeDocumentMoniker": "Log\\Login and other\\LogForAdminDeleteUser.cs",
               "ToolTip": "D:\\- Egyetem\\Progtech\\ProgtechBeadandoBufe\\BufeBeadandoProject\\Log\\Login and other\\LogForAdminDeleteUser.cs",
               "RelativeToolTip": "Log\\Login and other\\LogForAdminDeleteUser.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAoAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-05-29T16:32:03.515Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 3,
               "Title": "AdminWindow.cs",
               "DocumentMoniker": "D:\\- Egyetem\\Progtech\\ProgtechBeadandoBufe\\BufeBeadandoProject\\Windows\\AdminWindow.cs",
               "RelativeDocumentMoniker": "Windows\\AdminWindow.cs",
               "ToolTip": "D:\\- Egyetem\\Progtech\\ProgtechBeadandoBufe\\BufeBeadandoProject\\Windows\\AdminWindow.cs",
               "RelativeToolTip": "Windows\\AdminWindow.cs",
-              "ViewState": "AQIAACQAAAAAAAAAAAAlwC8AAAAfAAAA",
+              "ViewState": "AQIAACUAAAAAAAAAAAAAADMAAAAJAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-05-29T16:21:40.615Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 6,
               "Title": "AdminWindow.cs [Design]",
               "DocumentMoniker": "D:\\- Egyetem\\Progtech\\ProgtechBeadandoBufe\\BufeBeadandoProject\\Windows\\AdminWindow.cs",
               "RelativeDocumentMoniker": "Windows\\AdminWindow.cs",
@@ -336,7 +365,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 7,
               "Title": "AdminLoginWindow.cs [Design]",
               "DocumentMoniker": "D:\\- Egyetem\\Progtech\\ProgtechBeadandoBufe\\BufeBeadandoProject\\Windows\\AdminLoginWindow.cs",
               "RelativeDocumentMoniker": "Windows\\AdminLoginWindow.cs",
@@ -348,7 +377,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 14,
               "Title": "UserLoginWindow.cs",
               "DocumentMoniker": "D:\\- Egyetem\\Progtech\\ProgtechBeadandoBufe\\BufeBeadandoProject\\Windows\\UserLoginWindow.cs",
               "RelativeDocumentMoniker": "Windows\\UserLoginWindow.cs",
@@ -357,19 +386,6 @@
               "ViewState": "AQIAAA0AAAAAAAAAAAAgwEYAAAANAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-05-29T15:20:56.359Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 20,
-              "Title": "RegWindow.cs",
-              "DocumentMoniker": "D:\\- Egyetem\\Progtech\\ProgtechBeadandoBufe\\BufeBeadandoProject\\Windows\\RegWindow.cs",
-              "RelativeDocumentMoniker": "Windows\\RegWindow.cs",
-              "ToolTip": "D:\\- Egyetem\\Progtech\\ProgtechBeadandoBufe\\BufeBeadandoProject\\Windows\\RegWindow.cs",
-              "RelativeToolTip": "Windows\\RegWindow.cs",
-              "ViewState": "AQIAAE0AAAAAAAAAAAAuwFoAAAAuAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-29T15:20:42.619Z",
               "EditorCaption": ""
             }
           ]
