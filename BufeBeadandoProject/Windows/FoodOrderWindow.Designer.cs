@@ -41,7 +41,7 @@
             this.TB_TuesdaySoup = new System.Windows.Forms.TextBox();
             this.TB_TuesdayMeal = new System.Windows.Forms.TextBox();
             this.TB_WednesdaySoup = new System.Windows.Forms.TextBox();
-            this.TB_WedenesdayMeal = new System.Windows.Forms.TextBox();
+            this.TB_WednesdayMeal = new System.Windows.Forms.TextBox();
             this.TB_ThursdaySoup = new System.Windows.Forms.TextBox();
             this.TB_ThursdayMeal = new System.Windows.Forms.TextBox();
             this.TB_FridaySoup = new System.Windows.Forms.TextBox();
@@ -196,15 +196,15 @@
             this.TB_WednesdaySoup.Size = new System.Drawing.Size(104, 24);
             this.TB_WednesdaySoup.TabIndex = 29;
             // 
-            // TB_WedenesdayMeal
+            // TB_WednesdayMeal
             // 
-            this.TB_WedenesdayMeal.BackColor = System.Drawing.Color.White;
-            this.TB_WedenesdayMeal.Location = new System.Drawing.Point(95, 268);
-            this.TB_WedenesdayMeal.Multiline = true;
-            this.TB_WedenesdayMeal.Name = "TB_WedenesdayMeal";
-            this.TB_WedenesdayMeal.ReadOnly = true;
-            this.TB_WedenesdayMeal.Size = new System.Drawing.Size(104, 24);
-            this.TB_WedenesdayMeal.TabIndex = 30;
+            this.TB_WednesdayMeal.BackColor = System.Drawing.Color.White;
+            this.TB_WednesdayMeal.Location = new System.Drawing.Point(95, 268);
+            this.TB_WednesdayMeal.Multiline = true;
+            this.TB_WednesdayMeal.Name = "TB_WednesdayMeal";
+            this.TB_WednesdayMeal.ReadOnly = true;
+            this.TB_WednesdayMeal.Size = new System.Drawing.Size(104, 24);
+            this.TB_WednesdayMeal.TabIndex = 30;
             // 
             // TB_ThursdaySoup
             // 
@@ -606,7 +606,7 @@
             this.Controls.Add(this.TB_FridaySoup);
             this.Controls.Add(this.TB_ThursdayMeal);
             this.Controls.Add(this.TB_ThursdaySoup);
-            this.Controls.Add(this.TB_WedenesdayMeal);
+            this.Controls.Add(this.TB_WednesdayMeal);
             this.Controls.Add(this.TB_WednesdaySoup);
             this.Controls.Add(this.TB_TuesdayMeal);
             this.Controls.Add(this.TB_TuesdaySoup);
@@ -639,7 +639,7 @@
         private System.Windows.Forms.TextBox TB_TuesdaySoup;
         private System.Windows.Forms.TextBox TB_TuesdayMeal;
         private System.Windows.Forms.TextBox TB_WednesdaySoup;
-        private System.Windows.Forms.TextBox TB_WedenesdayMeal;
+        private System.Windows.Forms.TextBox TB_WednesdayMeal;
         private System.Windows.Forms.TextBox TB_ThursdaySoup;
         private System.Windows.Forms.TextBox TB_ThursdayMeal;
         private System.Windows.Forms.TextBox TB_FridaySoup;

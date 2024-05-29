@@ -132,10 +132,11 @@
             // LB_ErrorMessage
             // 
             this.LB_ErrorMessage.AutoSize = true;
-            this.LB_ErrorMessage.Location = new System.Drawing.Point(323, 264);
+            this.LB_ErrorMessage.Location = new System.Drawing.Point(323, 293);
             this.LB_ErrorMessage.Name = "LB_ErrorMessage";
-            this.LB_ErrorMessage.Size = new System.Drawing.Size(0, 13);
+            this.LB_ErrorMessage.Size = new System.Drawing.Size(91, 13);
             this.LB_ErrorMessage.TabIndex = 18;
+           
             // 
             // BTN_AdminShowAndHidePW
             // 

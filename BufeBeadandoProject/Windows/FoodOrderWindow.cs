@@ -8,46 +8,75 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-//using static System.Windows.Forms.VisualStyles.VisualStyleElement;
-
 namespace BufeBeadandoProject
 {
     public partial class FoodOrderWindow : Form, ICHBAndCBEvenetSubsricbe
     {
-        private void ShowMealsForUser()
+        private void ShowSoupsForUser()
         {
-            Random rnd = new Random();
-            MenuWindow menu = new MenuWindow();
-            menu.InitializeSoups();
-            int k = 0;
+            int soupIndex = 0;           
 
-            //do
-            //{
-            //    randomNumber = rnd.Next(0, menu.GetSoups().Count);
-            //    if (!(indexes.Contains(randomNumber)))
-            //    {                    
-            //        indexes[k] = randomNumber;
-            //        k++;
-            //    }
-            //} while (k < 5);
-
-            for (int i = 0; i < indexes.Length; i++)
+            do
             {
+                randomNumberForSoup = rnd.Next(0, newMenu.GetSoups().Count);       
 
-                do
+                if (!indexesForSoups.Contains(randomNumberForSoup))
                 {
-                    randomNumber = rnd.Next(0, menu.GetSoups().Count);
-                } while ((Array.IndexOf(indexes, randomNumber) != -1));
-                indexes[i] = randomNumber;
-            }
+                    indexesForSoups[soupIndex] = randomNumberForSoup;
+                    soupIndex++;
+                }
+            } while (soupIndex < 5);                  
 
-            TB_MondaySoup.Text = menu.GetSoups()[indexes[0]].ToString();
-            TB_TuesdaySoup.Text = menu.GetSoups()[indexes[1]].ToString();
-            TB_WednesdaySoup.Text = menu.GetSoups()[indexes[2]].ToString();
-            TB_ThursdaySoup.Text = menu.GetSoups()[indexes[3]].ToString();
-            TB_FridaySoup.Text = menu.GetSoups()[indexes[4]].ToString();
+            TB_MondaySoup.Text = newMenu.GetSoups()[indexesForSoups[0]].ToString();
+            TB_TuesdaySoup.Text = newMenu.GetSoups()[indexesForSoups[1]].ToString();
+            TB_WednesdaySoup.Text = newMenu.GetSoups()[indexesForSoups[2]].ToString();
+            TB_ThursdaySoup.Text = newMenu.GetSoups()[indexesForSoups[3]].ToString();         
+            TB_FridaySoup.Text = newMenu.GetSoups()[indexesForSoups[4]].ToString();            
         }
 
+        private void ShowEntreesForUser()
+        {
+            int entreeIndex = 0;
+
+            do
+            {
+                randomNumberForEntree = rnd.Next(0, newMenu.GetEntrees().Count);        
+
+                if (!indexesForEntrees.Contains(randomNumberForEntree))
+                {
+                    indexesForEntrees[entreeIndex] = randomNumberForEntree;
+                    entreeIndex++;
+                }               
+            } while (entreeIndex < 5);
+
+            TB_MondayMeal.Text = newMenu.GetEntrees()[indexesForEntrees[0]].ToString();
+            TB_TuesdayMeal.Text = newMenu.GetEntrees()[indexesForEntrees[1]].ToString();
+            TB_WednesdayMeal.Text = newMenu.GetEntrees()[indexesForEntrees[2]].ToString();
+            TB_ThursdayMeal.Text = newMenu.GetEntrees()[indexesForEntrees[3]].ToString();
+            TB_FridayMeal.Text = newMenu.GetEntrees()[indexesForEntrees[4]].ToString();           
+        }
+
+        private void ShowDessertsForUser()
+        {
+            int dessertIndex = 0;
+
+            do
+            {
+                randomNumberForDessert = rnd.Next(0, newMenu.GetDesserts().Count);
+
+                if (!indexesForDesserts.Contains(randomNumberForDessert))
+                {
+                    indexesForDesserts[dessertIndex] = randomNumberForDessert;
+                    dessertIndex++;
+                }
+            } while (dessertIndex < 5);
+
+            TB_MondayDessert.Text = newMenu.GetDesserts()[indexesForDesserts[0]].ToString();
+            TB_TuesdayDessert.Text = newMenu.GetDesserts()[indexesForDesserts[1]].ToString();
+            TB_WednesdayDessert.Text = newMenu.GetDesserts()[indexesForDesserts[2]].ToString();
+            TB_ThursdayDessert.Text = newMenu.GetDesserts()[indexesForDesserts[3]].ToString();
+            TB_FridayDessert.Text = newMenu.GetDesserts()[indexesForDesserts[4]].ToString();
+        }
 
         private void SetDefaultFlavor()
         {
@@ -78,7 +107,11 @@ namespace BufeBeadandoProject
         }
 
         #region
-        private int[] indexes = new int[5];
+        private MenuWindow newMenu;
+        private Random rnd;
+        private int[] indexesForSoups = new int[5];
+        private int[] indexesForEntrees = new int[5];
+        private int[] indexesForDesserts = new int[5];
         private string[] flavorings = new string[4] { "Nem kérek", "Só (+50 Ft)", "Bors (+60 Ft)", "Mindkettő (+100 Ft)" };
         public int menuCounter;
         public int dessertCounter;
@@ -86,7 +119,9 @@ namespace BufeBeadandoProject
         public int onlyPepperCounter;
         public int bothFlavorCounter;
         public int priceSummary;
-        private int randomNumber;
+        private int randomNumberForSoup;
+        private int randomNumberForEntree;
+        private int randomNumberForDessert;
         #endregion
 
         private void EnableCBS()
@@ -141,7 +176,13 @@ namespace BufeBeadandoProject
             }
             SetDefaultFlavor();
             CHBAndCBEvenetSubsricbe();
-            ShowMealsForUser();
+
+            newMenu = new MenuWindow();
+            rnd = new Random();
+
+            ShowSoupsForUser();
+            ShowEntreesForUser();
+            ShowDessertsForUser();
         }
 
         private static FoodOrderWindow instance;
@@ -163,7 +204,6 @@ namespace BufeBeadandoProject
             EnableCBS();
             priceSummary = 0;
 
-
             if (menuCounter >= 1 || dessertCounter >= 1)
             {
                 IExtra menu = new SimpleMenu();
@@ -182,7 +222,6 @@ namespace BufeBeadandoProject
             {
                 TB_ActualPrice.Text = "0";
             }
-
         }
 
         public void ActualPriceForUnitTest(int menuNum, int dessertNum, int saltNum, int pepperNum, int bothNum)

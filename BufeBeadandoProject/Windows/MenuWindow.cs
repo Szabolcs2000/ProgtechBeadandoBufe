@@ -32,7 +32,20 @@ namespace BufeBeadandoProject
             desserts = new List<IDessert>();
             InitializeSoups();
             InitializeEntrees();
-            InitializeDesserts();
+            InitializeDesserts();           
+        }
+
+        private static MenuWindow instance;
+
+        public static MenuWindow Instance
+        {
+            get
+            {
+                if (instance == null)
+                    instance = new MenuWindow();
+                return instance;
+            }
+
         }
 
         public void InitializeSoups()
@@ -177,11 +190,15 @@ namespace BufeBeadandoProject
             {
                 lbl_inf_result.Text = "Neve: " + listBox_result.SelectedItem.ToString() + "\n";
                 lbl_inf_result.Text += "Ára: 1500 Ft";
-            } else if (listBox_result.SelectedItem != null && !btn_Entrees.Enabled)
+            }
+            
+            else if (listBox_result.SelectedItem != null && !btn_Entrees.Enabled)
             {
                 lbl_inf_result.Text = "Neve: " + listBox_result.SelectedItem.ToString() + "\n";
                 lbl_inf_result.Text += "Ára: 1800 Ft";
-            } else if (listBox_result.SelectedItem != null && !btn_desserts.Enabled)
+            }
+            
+            else if (listBox_result.SelectedItem != null && !btn_desserts.Enabled)
             {
                 lbl_inf_result.Text = "Neve: " + listBox_result.SelectedItem.ToString() + "\n";
                 lbl_inf_result.Text += "Ára: 800 Ft";
