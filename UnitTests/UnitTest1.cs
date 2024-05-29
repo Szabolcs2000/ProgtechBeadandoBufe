@@ -90,10 +90,9 @@ namespace UnitTests
         }
 
         /// <summary>
-        /// Szabolcs - XY - unit testek
+        /// Szabolcs - unit testek
         /// </summary>
-        /// 
-
+       
         private string filePath = "./Users.csv";
 
         [TestInitialize]

@@ -31,7 +31,6 @@ D:\- Egyetem\4. félév\Progtech\ELESProject\ProgtechBeadando\BufeBeadandoProjec
 D:\- Egyetem\4. félév\Progtech\ELESProject\ProgtechBeadando\BufeBeadandoProject\obj\Debug\BufeBeadandoProject.Menu.resources
 D:\Suli\Tantárgyak\4. félév\Programozási technológiák gy\Beadando 2.0\ProgtechBeadandoBufe\BufeBeadandoProject\obj\Debug\BufeBeadandoProject.csproj.AssemblyReference.cache
 D:\Suli\Tantárgyak\4. félév\Programozási technológiák gy\Beadando 2.0\ProgtechBeadandoBufe\BufeBeadandoProject\obj\Debug\BufeBeadandoProject.AboutPaymentWindow.resources
-D:\Suli\Tantárgyak\4. félév\Programozási technológiák gy\Beadando 2.0\ProgtechBeadandoBufe\BufeBeadandoProject\obj\Debug\BufeBeadandoProject.AdminFoodEditWindow.resources
 D:\Suli\Tantárgyak\4. félév\Programozási technológiák gy\Beadando 2.0\ProgtechBeadandoBufe\BufeBeadandoProject\obj\Debug\BufeBeadandoProject.AdminLoginWindow.resources
 D:\Suli\Tantárgyak\4. félév\Programozási technológiák gy\Beadando 2.0\ProgtechBeadandoBufe\BufeBeadandoProject\obj\Debug\BufeBeadandoProject.FoodOrderWindow.resources
 D:\Suli\Tantárgyak\4. félév\Programozási technológiák gy\Beadando 2.0\ProgtechBeadandoBufe\BufeBeadandoProject\obj\Debug\BufeBeadandoProject.Properties.Resources.resources
@@ -61,3 +60,4 @@ D:\- Egyetem\Progtech\ProgtechBeadandoBufe\BufeBeadandoProject\obj\Debug\BufeBea
 D:\- Egyetem\Progtech\ProgtechBeadandoBufe\BufeBeadandoProject\obj\Debug\BufeBeadandoProject.exe
 D:\- Egyetem\Progtech\ProgtechBeadandoBufe\BufeBeadandoProject\obj\Debug\BufeBeadandoProject.pdb
 D:\- Egyetem\Progtech\ProgtechBeadandoBufe\BufeBeadandoProject\obj\Debug\BufeBeadandoProject.AdminWindow.resources
+D:\Suli\Tantárgyak\4. félév\Programozási technológiák gy\Beadando 2.0\ProgtechBeadandoBufe\BufeBeadandoProject\obj\Debug\BufeBeadandoProject.AdminWindow.resources
