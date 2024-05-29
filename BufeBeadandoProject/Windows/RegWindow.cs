@@ -85,8 +85,6 @@ namespace BufeBeadandoProject
             string Password2 = TB_RegPW2.Text;
             string Email = TB_RegEmail.Text;
 
-            ValidateUsername(UserName);
-
             if (ValidateUsername(UserName) && ValidatePassword(Password1, Password2) && ValidateEmail(Email))
             {
                 string csvLine = $"{UserName};{Password2}\n";

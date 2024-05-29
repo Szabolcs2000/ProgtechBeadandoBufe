@@ -50,7 +50,6 @@ D:\- Egyetem\Progtech\ProgtechBeadandoBufe\BufeBeadandoProject\bin\Debug\BufeBea
 D:\- Egyetem\Progtech\ProgtechBeadandoBufe\BufeBeadandoProject\bin\Debug\BufeBeadandoProject.pdb
 D:\- Egyetem\Progtech\ProgtechBeadandoBufe\BufeBeadandoProject\obj\Debug\BufeBeadandoProject.csproj.AssemblyReference.cache
 D:\- Egyetem\Progtech\ProgtechBeadandoBufe\BufeBeadandoProject\obj\Debug\BufeBeadandoProject.AboutPaymentWindow.resources
-D:\- Egyetem\Progtech\ProgtechBeadandoBufe\BufeBeadandoProject\obj\Debug\BufeBeadandoProject.AdminFoodEditWindow.resources
 D:\- Egyetem\Progtech\ProgtechBeadandoBufe\BufeBeadandoProject\obj\Debug\BufeBeadandoProject.AdminLoginWindow.resources
 D:\- Egyetem\Progtech\ProgtechBeadandoBufe\BufeBeadandoProject\obj\Debug\BufeBeadandoProject.FoodOrderWindow.resources
 D:\- Egyetem\Progtech\ProgtechBeadandoBufe\BufeBeadandoProject\obj\Debug\BufeBeadandoProject.MenuWindow.resources
@@ -61,3 +60,4 @@ D:\- Egyetem\Progtech\ProgtechBeadandoBufe\BufeBeadandoProject\obj\Debug\BufeBea
 D:\- Egyetem\Progtech\ProgtechBeadandoBufe\BufeBeadandoProject\obj\Debug\BufeBeadandoProject.csproj.CoreCompileInputs.cache
 D:\- Egyetem\Progtech\ProgtechBeadandoBufe\BufeBeadandoProject\obj\Debug\BufeBeadandoProject.exe
 D:\- Egyetem\Progtech\ProgtechBeadandoBufe\BufeBeadandoProject\obj\Debug\BufeBeadandoProject.pdb
+D:\- Egyetem\Progtech\ProgtechBeadandoBufe\BufeBeadandoProject\obj\Debug\BufeBeadandoProject.AdminWindow.resources

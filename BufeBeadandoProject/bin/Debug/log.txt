@@ -55,3 +55,9 @@
 2024. 05. 29. 17:03:22 - Információ - Szabolcs felhasználónévvel regisztráltak.
 2024. 05. 29. 17:14:56 - Információ - Szabolcs felhasználó bejelentkezett.
 2024. 05. 29. 17:32:50 - Információ - Szabolcs11 felhasználónévvel regisztráltak.
+2024. 05. 29. 18:25:14 - Információ - AzAdmin bejelentkezett.
+2024. 05. 29. 18:25:55 - Információ - AzAdmin bejelentkezett.
+2024. 05. 29. 18:29:47 - Információ - AzAdmin bejelentkezett.
+2024. 05. 29. 18:30:00 - Információ - AzAdmin bejelentkezett.
+2024. 05. 29. 18:38:47 - Információ - Az Admin bejelentkezett.
+2024. 05. 29. 18:38:49 - Információ - Felhasználó törölve:Pista
