@@ -14,12 +14,29 @@ namespace BufeBeadandoProject
 {
     public partial class AdminWindow : Form
     {
+        private static AdminWindow instance = null;
+        private static readonly object padlock = new object();
         private string filePath = "./Users.csv";
 
-        public AdminWindow()
+        private AdminWindow()
         {
             InitializeComponent();
             LoadUsers();
+        }
+
+        public static AdminWindow Instance
+        {
+            get
+            {
+                lock (padlock)
+                {
+                    if (instance == null)
+                    {
+                        instance = new AdminWindow();
+                    }
+                    return instance;
+                }
+            }
         }
 
         private void LoadUsers()
