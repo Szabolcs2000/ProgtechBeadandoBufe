@@ -18,7 +18,7 @@ namespace BufeBeadandoProject
         private static readonly object padlock = new object();
         private string filePath = "./Users.csv";
 
-        private AdminWindow()
+        public AdminWindow()
         {
             InitializeComponent();
             LoadUsers();

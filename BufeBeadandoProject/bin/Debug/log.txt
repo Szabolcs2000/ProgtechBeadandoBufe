@@ -82,3 +82,4 @@
 2024. 05. 29. 21:58:25 - Információ - A felhasználó fizetett.
 2024. 05. 29. 22:00:32 - Információ - Szabolcs felhasználó bejelentkezett.
 2024. 05. 29. 22:00:42 - Információ - A felhasználó fizetett.
+2024. 05. 30. 10:19:10 - Információ - Az Admin bejelentkezett.
