@@ -4,7 +4,7 @@ HUNGARIAN:
 Ez egy ételrendelő alkalmazás. 2022-es Visual studio-ban készült, Windows Forms-ban.
 A legnagyobb szabású alkalmazás, melyet egyetemi pályafutásunk során készítettünk, a második évünk végén.
 Tartalmaz Unit testeket, interfészeket, logolást,regsiztrációt, bejelentkezést,
-programozási mintákat (Dekorarot és Factory), 
+programozási mintákat (Decorator és Factory), 
 valamint igyekeztünk megfelelni az SCP, és az OCP programozási alapelveknek egyaránt.
 Több hétig tartott a projekt, ketten dolgoztunk rajta összesen, 50-50 arányban.
 Jeles érdemjegyet sikerült vele elérnünk.
